@@ -97,14 +97,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             return await event.delete()
         else:
             await event.edit(
-                "`Kyy-Userbot Berhasil DiUpdate🛃,Restart Tunggu Sebentar`"
+                "`Bdrl-Userbot Berhasil DiUpdate,Restart Tunggu Sebentar`"
             )
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
-                BOTLOG_CHATID, "#BOT \n" "`Kyy-Userbot Berhasil Di Update`"
+                BOTLOG_CHATID, "#BOT \n" "`Bdrl-Userbot Berhasil Di Update`"
             )
 
     else:
@@ -251,10 +251,10 @@ async def upstream(event):
 CMD_HELP.update(
     {
         "update": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update`"
-        "\n• : Untuk Melihat Pembaruan Terbaru Kyy-Userbot."
+        "\n• : Untuk Melihat Pembaruan Terbaru Bdrl-Userbot."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update now`"
-        "\n• : Memperbarui Kyy-Userbot."
+        "\n• : Memperbarui Bdrl-Userbot."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update deploy`"
-        "\n• : Memperbarui Kyy-Userbot Dengan Cara Men-Deploy Ulang."
+        "\n• : Memperbarui Bdrl-Userbot Dengan Cara Men-Deploy Ulang."
     }
 )
