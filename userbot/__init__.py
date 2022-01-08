@@ -191,8 +191,8 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
-# Untuk Perintah .kyyalive
-KYY_TEKS_KUSTOM = os.environ.get("KYY_TEKS_KUSTOM", "")
+# Untuk Perintah .bdrlalive
+KYY_TEKS_KUSTOM = os.environ.get("BDRL_TEKS_KUSTOM", "")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
@@ -215,7 +215,7 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Kyy-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Bdrl-Userbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -228,11 +228,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/276d22aac9f400898cd27.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
@@ -501,7 +501,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ʀᴇᴘᴏ​",
-                                       "https://github.com/muhammadrizky16/Kyy-Userbot")],
+                                       "https://github.com/Yansaii/Bdrl-userbot")],
                     ]
                 )
 
@@ -512,7 +512,7 @@ with bot:
             if event.message.from_id != uid:
                 await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"{START_WELCOME}\n\n**Powered By** : @IDnyaKosong\n\n",
+                    f"{START_WELCOME}\n\n**Powered By** : @Bdrllll\n\n",
                     buttons=[
                         [
                             custom.Button.inline(
@@ -581,10 +581,10 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 text = (
-                    f"❁ __Saya Adalah Kyy Userbot Yang Digunakan Banyak User Telegram__.\n\n"
+                    f"❁ __Saya Adalah Bdrl Userbot Yang Digunakan Banyak User Telegram__.\n\n"
                     f"❁ __Saya Dibuat Hanya Untuk Bersenang Senang Ditelegram__.\n\n"
                     f"❁ __Kelebihan Saya Banyak, Saya Mempunyai 1816 Modules__.\n\n"
-                    f"© @IDnyaKosong")
+                    f"© @Bdrllll")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -656,13 +656,13 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"Modules Name **Alive**\n\n"
-                    f"× `.alive` × `.kyyalive` × `.kyyon`\n"
+                    f"× `.alive` × `.bdrlalive` × `.kyyon`\n"
                     f"°__Menampilkan Alive Punya Kamu__.\n\n"
                     f"× `.set var ALIVE_LOGO` [**LINK**]\n"
                     f"°__Mengubah Foto Alive Kamu, Yang Kamu Inginkan__.\n\n"
-                    f"× `.set var KYY_TEKS_KUSTOM` [**TEKS**]\n"
-                    f"°__Mengganti Teks Yang Ada Command KyyAlive__.\n\n"
-                    f"© @IDnyaKosong")
+                    f"× `.set var BDRL_TEKS_KUSTOM` [**TEKS**]\n"
+                    f"°__Mengganti Teks Yang Ada Command bdrlAlive__.\n\n"
+                    f"© @Bdrllll")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -692,7 +692,7 @@ with bot:
                     f"°__Mengaktifkan Pmpermit Kalian Atau Disebut Pesan Otomatis__.\n\n"
                     f"× `.set pm_msg` [**REPLYCHAT**]\n"
                     f"°__Mengganti Teks Pmpermit Selera Kamu__.\n\n"
-                    f"© @IDnyaKosong")
+                    f"© @Bdrllll")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -722,7 +722,7 @@ with bot:
                     f"°__Mengubah Emoji Inline Yang Ada Dicomand__ `.helpme`\n\n"
                     f"× `.set var INLINE_PIC` [**LINK**]\n"
                     f"°__Mengubah Foto Yang Ada Dicomand__ `.helpme`\n\n"
-                    f"© @IDnyaKosong")
+                    f"© @Bdrllll")
                 await event.edit(
                     text,
                     file=kyulogo,
@@ -750,7 +750,7 @@ with bot:
                     f"Modules Name **pmbot**\n\n"
                     f"× `.set var START_WELCOME` [**TEKS**] \n"
                     f"°__Kamu Juga Bisa Mengubah Start Welcome Untuk Bot Kamu Yang Ini, Dengan Cara Diatas Dan Kata Kata Bebas__.\n\n"
-                    f"© @IDnyaKosong")
+                    f"© @Bdrllll")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -776,11 +776,11 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"Modules Name **Pembaruan**\n\n"
-                    f"× **Pembaruan Data Untuk Kyy Userbot, Command Untuk Pembaruan**.\n"
+                    f"× **Pembaruan Data Untuk Bdrl Userbot, Command Untuk Pembaruan**.\n"
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
-                    f"© @IDnyaKosong")
+                    f"© @Bdrllll")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -845,7 +845,7 @@ with bot:
                     f"**|**  [`{percentage}`**%**]\n"
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╚════════════════════╝"
-                    f"© @IDnyaKosong")
+                    f"© @Bdrllll")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -896,7 +896,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴄʜᴀɴɴᴇʟ",
-                                       "t.me/NastyProject")],
+                                       "t.me/gabuuttty")],
                     ]
                 )
 
@@ -918,26 +918,26 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ✨ҡʏʏ-υѕєявσт✨",
+                    "Bantuan Dari ✨ʙᴅʀʟ-υѕєявσт✨",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ✨ҡʏʏ-υѕєявσт✨",
-                    text="""°Kyy-Userbot°""",
+                    " ✨ʙᴅʀʟ-υѕєявσт✨",
+                    text="""°Bdrl-Userbot°""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Kyy",
-                                "https://github.com/muhammadrizky16/Kyy-Userbot"),
+                                "Bdrl",
+                                "https://github.com/Yansaii/Bdrl-userbot"),
 
                             custom.Button.url(
                                 "Channel",
-                                "t.me/NastyProject")],
+                                "t.me/gabuuttty")],
                         [custom.Button.url(
                             "License",
-                            "https://github.com/muhammadrizky16/Kyy-Userbot/LICENSE")],
+                            "https://github.com/Yansaii/Bdrl-userbot/LICENSE")],
                     ],
                     link_preview=False,
                 )
@@ -974,9 +974,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈",
-                                       "t.me/NastySupportt"),
+                                       "t.me/bdrlsupportt"),
                             Button.url("❈ᴄʜᴀɴɴᴇʟ❈",
-                                       "t.me/NastyProject")],
+                                       "t.me/gabuuttty")],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],
                         [custom.Button.inline(
