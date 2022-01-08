@@ -36,6 +36,6 @@ async def help(event):
         await event.edit("**🔥ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ🔥**\n\n"
                          f"**◉ Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n**◉ Mᴏᴅᴜʟᴇꜱ : {len(modules)}**\n\n"
                          "**• Mᴀɪɴ Mᴇɴᴜ :**\n"
-                         f"◉ {string}◉\n\n✐ **ɴᴏᴛᴇꜱ :**  `.help animasi`\n☞  sᴜᴘᴘᴏʀᴛ : @bdrlsupportt")
+                         f"◉ {string}◉\n\n✐ **ɴᴏᴛᴇꜱ :**  `.help animasi`\n☞  Onwer : @Bdrllll")
         await asyncio.sleep(1000)
         await event.delete()
