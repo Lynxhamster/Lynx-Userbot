@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**⚡️ʙᴅʀʟ-Userbot✨ Versi:** \n "
-            f"heads/ʙᴅʀʟ-Userbot-0-x634i7u1"
+            "**⚜-**⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️ Versi:** \n "
+            f"heads/ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -316,7 +316,7 @@ async def redis(alive):
         f"┣  `Modules  :` {len(modules)} Modules \n"
         f"┣  `GitHub   :` [ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ](https://github.com/Yansaii/Bdrl-userbot) \n"
         f"┣  `Support  :` [Groups](https://t.me/bdrlsupportt) \n"
-        f"┣  `Owner    :` [ʙᴅʀʟ](https://t.me/Bdrll) \n"
+        f"┣  `Owner    :` [ʙᴅʀʟ](https://t.me/Bdrllll) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
