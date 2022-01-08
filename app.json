@@ -98,7 +98,7 @@
       "value": "https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg",
       "required": false
     },
-    "KYY_TEKS_KUSTOM": {
+    "BDRL_TEKS_KUSTOM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .bdrlalive (Isi Terserah)",
       "value": "I'am Using Bdrl-Userbot ✨",
       "required": false 
