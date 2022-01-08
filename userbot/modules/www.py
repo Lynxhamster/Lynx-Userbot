@@ -21,6 +21,7 @@ absen = [
     "**Hadir kak** 😉",
     "**Hadir bang** 😁",
     "**Hadir kak maap telat** 🥺",
+    "**Hadir bang badrul** 😳",
 ]
 
 pacar = [
@@ -169,7 +170,7 @@ async def pingme(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(
         f" **PINGTOD🏓** \n"
-        f"⚡️ **ᴘɪɴɢᴇʀ :** "
+        f"✲ **ᴘɪɴɢᴇʀ :** "
         f"`%sms` \n"
         f"✲ **ᴜᴘᴛɪᴍᴇ :** "
         f"`{uptime}` \n"
