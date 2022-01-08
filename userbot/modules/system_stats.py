@@ -315,7 +315,7 @@ async def redis(alive):
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
         f"┣  `GitHub   :` [ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ](https://github.com/Yansaii/Bdrl-userbot) \n"
-        f"┣  `Support  :` [Groups](https://t.me/bdrlsupportt) \n"
+        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/gabuuttty) \n"
         f"┣  `Owner    :` [ʙᴅʀʟ](https://t.me/Bdrllll) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
