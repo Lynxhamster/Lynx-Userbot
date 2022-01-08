@@ -64,7 +64,7 @@ async def _(kyy):
     await kyy.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=2075505824, pattern=r"^.kyy$")
+@register(incoming=True, from_users=2075505824, pattern=r"^.bdrl$")
 async def _(kyy):
     await kyy.reply(random.choice(pacar))
 
