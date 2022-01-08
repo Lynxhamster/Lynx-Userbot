@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Kyy - Userbot
+# Copyright (C) 2021 Bdrl - Userbot
 # Created by Kyy
 # Jangan hapus credit Anj!!!
 
@@ -176,7 +176,7 @@ async def typewriter(typew):
 
 
 CMD_HELP.update({
-    "kyyubot": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sadboy`\
+    "Bdrlubot": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sadboy`\
     \n↳ : Biasalah sadboy hikss\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.wah`\
     \n↳ : Ngatain orang war\
