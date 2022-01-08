@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">𝗕𝗗𝗥𝗟-𝗨𝗦𝗘𝗥𝗕𝗢𝗧<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
+<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">𝗕𝗗𝗥𝗟-𝗨𝗕𝗢𝗧<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
 <p align="center">
     <a href="https://github.com/Yansaii/Bdrl-userbot/commits/Bdrl-userbot"><img src="https://img.shields.io/github/last-commit/Yansaii/Bdrl-userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
