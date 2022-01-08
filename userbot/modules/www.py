@@ -226,7 +226,7 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("**◕‿- PONG!!🏓**")
     await asyncio.sleep(1)
-    await pong.edit("✨")
+    await pong.edit("⚡️")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
