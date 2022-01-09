@@ -22,6 +22,7 @@ absen = [
     "**Hadir bang** 😁",
     "**Hadir kak maap telat** 🥺",
     "**Hadir bang badrul** 😳",
+    "**Hadir cok** 😎",
 ]
 
 pacar = [
@@ -29,7 +30,8 @@ pacar = [
     "**Iya Bang kenapa?**",
     "**Uuyy Bang**",
     "**Hadir uyy** 😁",
-    "**Saya Hadir Untuk Melindungi Cewe Dari Laki Laki Sangean** 😎",
+    "**Saya Hadir Untuk Melindungi Cewe Dari Laki Laki Sagapung** 😎",
+    "**Siap 86 Bang**😎",
 ]
 
 
