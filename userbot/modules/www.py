@@ -60,12 +60,12 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
+@register(incoming=True, from_users=2075505824, pattern=r"^.absen$")
 async def _(kyy):
     await kyy.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^.bdrl$")
+@register(incoming=True, from_users=2075505824, pattern=r"^.bdrl$")
 async def _(kyy):
     await kyy.reply(random.choice(pacar))
 
@@ -78,7 +78,7 @@ async def redis(pong):
     await pong.edit("**✲**")
     await pong.edit("**✲✲**")
     await pong.edit("**✲✲✲**")
-    await pong.edit("__DUAR__")
+    await pong.edit("__DUARMEMEK__")
     await pong.edit("🔥")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
