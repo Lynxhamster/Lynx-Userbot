@@ -86,7 +86,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "✨Bdrl-Userbot✨",
+      "value": "Bdrl-Userbot",
       "required": false
     },
     "ALIVE_NAME": {
