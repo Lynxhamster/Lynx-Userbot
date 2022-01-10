@@ -39,6 +39,19 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
+@register(outgoing=True, pattern='^.trio(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("`Hai saya trio kontol `")
+    sleep(3)
+    await typew.edit("`perkenalkan saya kenzu`")
+    sleep(1)
+    await typew.edit("`Tinggal Di Jawa, Salam Kenal:)`")
+# Create by myself @localheart
+
+
+
 CMD_HELP.update({
     "oi": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `bdrl`\
     \n↳ : perkenalan Bdrl\
