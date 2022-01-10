@@ -1,5 +1,5 @@
 from time import sleep
-from userbot import CMD_HELP
+from userbot import CMD_HELP, DEVS
 from userbot.events import register
 
 
