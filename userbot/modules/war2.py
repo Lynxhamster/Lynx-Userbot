@@ -96,7 +96,7 @@ async def typewriter(typew):
     )
 
 
-@register(outgoing=True, pattern=r"^\.BABU(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.babu(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
@@ -128,7 +128,7 @@ CMD_HELP.update(
         \n↳ : lihat sendiri\
         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: .lol\
         \n↳ : lihat sendiri\
-        \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: .BABU
+        \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: .babu\
         \n↳ : lihat sendiri\
         \n↳ **COBAIN AJA SENDIRI SEMUA!**.\
     "
