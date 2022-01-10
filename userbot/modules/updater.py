@@ -196,7 +196,7 @@ async def upstream(event):
 
     if changelog == "" and force_update is False:
         await event.edit(
-            f"\n⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️ Sudah Versi Terbaru || Tunggu Update Terbaru\n"
+            f"\n⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️ Sudah Versi Terbaru\n"
         )
         await asyncio.sleep(15)
         await event.delete()
@@ -220,7 +220,7 @@ async def upstream(event):
         else:
             await event.edit(changelog_str)
         return await event.respond(
-            "**Perintah Untuk Update, Sebagai Berikut.**\n🔰 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update now` (Sementara)\n🔰 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy` (Permanen)\n\n__Untuk Meng Update Fitur Terbaru Dari ⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️.__"
+            "**Perintah Untuk Update, Sebagai Berikut.**\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update now` (Sementara)\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy` (Permanen)\n\n__Untuk Meng Update Fitur Terbaru Dari ⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️.__"
         )
 
     if force_update:
