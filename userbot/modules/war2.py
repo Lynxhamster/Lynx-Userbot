@@ -104,6 +104,14 @@ async def typewriter(typew):
     )
 
 
+@register(outgoing=True, pattern=r"^\.lose(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit(
+        "**UDAH APA KALAU KALAH JANGAN LAWAN GW MANGKANYA KALAU PUNYA BAPAK JANGAN BUNTUNG TANGAN SATU APA YAELAHH JANGAN NGESELIN APA MUKA LU BIAR JANGAN NANTANG TUHAN MUKA LU KAYA BABI NGEPET ANJR UDAH KEBANYAK SETAN IBLIS DAHHH KEBANYAKAN MAKAN BATU KRIKIL YG DIJALANAN DAN UDAH MUKA ANCUR KAYA GAJLUGKN KAN JELEK SAMA JELEK ANJR UDH JAMET TAMBAH JAMET BANGET NJIR GUA JUGA TAU ELU TUH BLOM MAKAN LU LAPER KAN NGOMONG KLO ELU LAPER DI TEMPAT SAMPAH GUA BANYAK NOH MAKANAN BEKAS GUA MAKAN MALEM ELU KLO LAPER GUA BAWAIN KERUMAH ELU YANG GUBUK KEK KANDANG AYAM BIAR ELU BISA MAKAN SAMA KELUARGA ELU YANG MISKIN DAN HINA ITU MIRIP GUA LO TUH DOFFY LIAT ELU KE LAPER TUH SUKA KASIAN ORANG**"
+    )
+
+
 CMD_HELP.update(
     {
         "war2": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: .ehh\
@@ -129,6 +137,8 @@ CMD_HELP.update(
         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: .lol\
         \n↳ : lihat sendiri\
         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: .babu\
+        \n↳ : lihat sendiri\
+        \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: .lose
         \n↳ : lihat sendiri\
         \n↳ **COBAIN AJA SENDIRI SEMUA!**.\
     "
