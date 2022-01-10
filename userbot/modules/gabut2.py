@@ -44,12 +44,15 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
     await typew.edit("`Hai saya trio kontol `")
+    sleep(5)
+    await typew.edit("`perkenalkan saya @TripleNineee Bawok, lanjut.`")
     sleep(3)
-    await typew.edit("`perkenalkan saya kenzu`")
+    await typew.edit("`saya @SangDappaa memek`")
+    sleep(3)
+    await typew.edit("`Dan saya @Bdrlllll Jembut`")
     sleep(1)
-    await typew.edit("`Tinggal Di Jawa, Salam Kenal:)`")
+    await typew.edit("`Kami bertiga tolol dan donggo 🥵`")
 # Create by myself @localheart
-
 
 
 CMD_HELP.update({
