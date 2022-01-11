@@ -12,7 +12,7 @@ import redis
 
 from datetime import datetime
 from speedtest import Speedtest
-from userbot import CMD_HELP, StartTime, ALIVE_NAME
+from userbot import CMD_HELP, DEVS, StartTime, ALIVE_NAME
 from userbot.events import register
 
 absen = [
@@ -23,6 +23,7 @@ absen = [
     "**Hadir kak maap telat** 🥺",
     "**Hadir bang badrul** 😳",
     "**Hadir cok** 😎",
+    "**Hadir jancok** 😎",
 ]
 
 pacar = [
@@ -31,7 +32,9 @@ pacar = [
     "**Uuyy Bang**",
     "**Hadir uyy** 😁",
     "**Saya Hadir Untuk Melindungi Cewe Dari Laki Laki Sagapung** 😎",
-    "**Siap 86 Bang**😎",
+    "**Siap 86 Bang** 😎",
+    "**Lagi sange bang** 🥵",
+
 ]
 
 
