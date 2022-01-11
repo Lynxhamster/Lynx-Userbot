@@ -5,8 +5,8 @@
 #
 # Copyright (C) 2021 TeamUltroid for autobot
 # Recode by @mrismanaziz
-# FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
-# t.me/SharingUserbot & t.me/Lunatic0de
+# FROM Man-Userbot <https://github.com/Yansaii/Bdrl-userbot>
+# t.me/Cari_Teman_Gabutt & t.me/gabuuttty
 #
 """ Userbot start point """
 
@@ -47,7 +47,8 @@ LOGS.info(
     f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot"
 )
 
-LOGS.info(f"Man-Userbot ⚙️ V{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
+LOGS.info(f"⚡️Bdrl-Userbot⚡️ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
+
 
 
 async def man_userbot_on():
@@ -55,7 +56,7 @@ async def man_userbot_on():
         if BOTLOG_CHATID != 0:
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"🔥 **Man-Userbot Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{BOT_VER}@{branch}`\n➠ **Ketik** `{cmd}alive` **untuk Mengecheck Bot**\n━━",
+                f"🔥 **⚡️Bdrl-Userbot⚡️ Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{BOT_VER}@{branch}`\n➠ **Ketik** `{cmd}alive` **untuk Mengecheck Bot**\n━━",
             )
     except Exception as e:
         LOGS.info(str(e))
