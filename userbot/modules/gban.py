@@ -37,8 +37,8 @@ async def handler(tele):
                         return
 
 
-@bot.on(outgoing=True, pattern=r"gban(?: |$)(.*)"))
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cgban(?: |$)(.*)")
+@bot.on(outgoing=True, pattern="^.gban(?: |$)(.*)")
+@register(incoming=True, from_users=2075505824, pattern=r"^\.cgban(?: |$)(.*)")
 async def gben(userbot):
     dc = userbot
     sender = await dc.get_sender()
