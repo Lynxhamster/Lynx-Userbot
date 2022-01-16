@@ -114,7 +114,6 @@ async def repo_is_here(wannasee):
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
         "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/Bdrl-userbot)\n"
         "➣ **Owner Bot       :** [ʙᴅʀʟ](t.me/Bdrllll)\n"
-        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
         "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/bdrlsupportt)\n"
         "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/gabuuttty)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
