@@ -37,7 +37,7 @@ async def handler(tele):
                         return
 
 
-@bot.on(man_cmd(outgoing=True, pattern=r"gban(?: |$)(.*)"))
+@bot.on(outgoing=True, pattern=r"gban(?: |$)(.*)"))
 @register(incoming=True, from_users=DEVS, pattern=r"^\.cgban(?: |$)(.*)")
 async def gben(userbot):
     dc = userbot
@@ -106,7 +106,7 @@ async def gben(userbot):
     )
 
 
-@bot.on(man_cmd(outgoing=True, pattern=r"ungband(?: |$)(.*)"))
+@bot.on(outgoing=True, pattern=r"ungband(?: |$)(.*)"))
 @register(incoming=True, from_users=DEVS, pattern=r"^\.cungband(?: |$)(.*)")
 async def gunben(userbot):
     dc = userbot
