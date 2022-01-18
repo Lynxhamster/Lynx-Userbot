@@ -5,16 +5,22 @@
     Information Superhighway (yes, Internet). """
 
 import random
+
+
+from userbot import (
+    DEVS,
+)
+
 from userbot.events import register
 
 # OWN BY RENDY CODE
 # CPING
 
 cping = [
-    "**Hadir ping** `100.699` ",
+    "**Hadir ping** `100.696` ",
     "**Hadir speed** `999.999` ",
-    "**Hadir boosted** `565.930` ",
-    "**Hadir pingers power** `789.666` ",
+    "**Hadir boosted** `538.939` ",
+    "**Hadir pingers power** `889.999` ",
 ]
 
 
@@ -45,6 +51,6 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=2075505824, pattern=r"^.cping$")
+@register(incoming=True, from_users=DEVS, pattern=r"^.cping$")
 async def _(rendy):
-    await kyy.reply(random.choice(cping))
+    await rendy.reply(random.choice(cping))
