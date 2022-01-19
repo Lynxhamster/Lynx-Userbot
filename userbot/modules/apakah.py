@@ -1,3 +1,4 @@
+import asyncio
 import random
 from userbot.events import register
 
@@ -12,15 +13,13 @@ APAKAH_STRING = ["Iya",
                  "Apa iya?",
                  "Tanya aja sama mamak kau tu lah"
                  "Mungkin iya",
-                 "Mungkin",
-                 "Iya",
-                 "Tidak",
                  "Nggak tau",
                  "Benar",
                  "Aalah",
                  "Lu kali bukan dia",
                  "Apa iya",
                  "Kayaknya",
+                 "Kayaknya sih",
                  "Ah masa",
                  "Masa sih",
                  "Oh gitu ya",
@@ -39,13 +38,13 @@ APAKAH_STRING = ["Iya",
                  "Dadjal",
                  "Setan",
                  "Iblis",
+                 "Tidak perlu",
+                 "Oh gitu",
+                 "Tidak usah",
                  ]
 
 
-@register(pattern="^apakah ?(.*)")
+@register(pattern="^apakah|Apakah ?(.*)")
 async def apakah(event):
-    quew = event.pattern_match.group(1)
-    if not quew:
-        await event.reply('Berikan saya pertanyaan kontol 😐')
-        return
+    await asyncio.sleep(0.5)
     await event.reply(random.choice(APAKAH_STRING))
