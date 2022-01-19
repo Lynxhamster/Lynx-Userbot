@@ -181,19 +181,19 @@ async def dyno_usage(dyno):
             AppMinutes = math.floor(AppQuotaUsed % 60)
 
             await dyno.edit(
-                "✥ **Informasi Dyno Heroku :**"
-            "\n╔════════════════════╗\n"
-            f" ➠ **Penggunaan Dyno** `{app.name}` :\n"
-            f"     •  `{AppHours}`**Jam**  `{AppMinutes}`**Menit**  "
-            f"**|**  [`{AppPercentage}`**%**]"
-            "\n◖════════════════════◗\n"
-            " ➠ **Sisa kuota dyno bulan ini** :\n"
-            f"     •  `{hours}`**Jam**  `{minutes}`**Menit**  "
-            f"**|**  [`{percentage}`**%**]"
-            "\n╚════════════════════╝\n"
-            f"✥ **Sisa Dyno Heroku** `{day}` **Hari Lagi**"
-        )
-            await asyncio.sleep(0.5)
+                "✥ **ɪɴꜰᴏʀᴍᴀsɪ ᴅʏɴᴏ ʜᴇʀᴏᴋᴜ :**\n"
+                "╔════════════════════╗\n"
+                f" ☂ **ᴘᴇɴɢɢᴜɴᴀ ᴅʏɴᴏ sᴀᴀᴛ ɪɴɪ :**\n"
+                f"  ➽  `{AppHours}`**ᴊᴀᴍ**  `{AppMinutes}`**ᴍᴇɴɪᴛ**  "
+                f"**|**  [`{AppPercentage}`**%**]"
+                "\n◖════════════════════◗\n"
+                " ☂ **sɪsᴀ ᴋᴏᴜᴛᴀ ᴅʏɴᴏ ʙᴜʟᴀɴ ɪɴɪ :**\n"
+                f"  ➽  `{hours}`**ᴊᴀᴍ**  `{minutes}`**ᴍᴇɴɪᴛ**  "
+                f"**|**  [`{percentage}`**%**]\n"
+                f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
+                "\n╚════════════════════╝"
+            )
+            await asyncio.sleep(20)
             await event.delete()
             return True
 
