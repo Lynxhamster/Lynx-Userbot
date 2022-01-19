@@ -1,6 +1,5 @@
 import random
 from userbot.events import register
-from userbot import telethn
 
 APAKAH_STRING = ["Iya", 
                  "Tidak", 
