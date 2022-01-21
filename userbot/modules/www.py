@@ -193,11 +193,11 @@ async def pingme(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(
         f" **╼══❃PING!!!❃══╾** \n"
-        f" **ᴘɪɴɢᴇʀ :** "
+        f"➥ **ᴘɪɴɢᴇʀ :** "
         f"`%sms` \n"
-        f" **ᴜᴘᴛɪᴍᴇ :** "
+        f"➥ **ᴜᴘᴛɪᴍᴇ :** "
         f"`{uptime}` \n"
-        f" **✹⃝⁦꙰ᴏɴᴡᴇʀ :** `{ALIVE_NAME}`" % (duration)
+        f"➥ **✹⃝⁦꙰ᴏɴᴡᴇʀ :** `{ALIVE_NAME}`" % (duration)
     )
 
 
@@ -253,7 +253,7 @@ async def pingme(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**⚡️BdrlName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
+    await pong.edit(f"**⚡️Onwer : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
 @register(outgoing=True, pattern="^.pink$")
