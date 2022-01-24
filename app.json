@@ -109,7 +109,7 @@
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's weather module.",
-      "value": "Jawa",
+      "value": "Batam",
       "required": false
     },
     "LOGSPAMMER": {
