@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️ Versi:** \n "
-            f"heads/ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ-0-x634i7u1"
+            "**⚜-**☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠ Versi:** \n "
+            f"heads/𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️** \n\n"
+        f" **☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** \n\n"
         f"\n__**{BDRL_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"◙ `Name       :` {DEFAULTUSER} \n"
