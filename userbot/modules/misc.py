@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[⚡️ ʙᴅʀʟ-Userbot Repo](https://github.com/Yansaii/Bdrl-Userbot/blob/Bdrl-Userbot/README.md)"
+        "\n[Repo](https://github.com/Yansaii/Bdrl-Userbot/blob/Bdrl-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -110,9 +110,9 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️** \n"
+        "**Hey**, I am using **☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** \n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/Bdrl-userbot)\n"
+        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/Bdrl-Userbot)\n"
         "➣ **Owner Bot       :** [ʙᴅʀʟ](t.me/Bdrllll)\n"
         "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/bdrlsupportt)\n"
         "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/gabuuttty)\n"
