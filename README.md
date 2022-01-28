@@ -1,15 +1,15 @@
 <h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">𝗕𝗗𝗥𝗟-𝗨𝗕𝗢𝗧<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
 <p align="center">
-    <a href="https://github.com/Yansaii/Bdrl-userbot/commits/Bdrl-userbot"><img src="https://img.shields.io/github/last-commit/Yansaii/Bdrl-userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
-    <a href="https://github.com/Yansai/Bdrl-userbot"> <img src="https://img.shields.io/github/repo-size/Yansaii/Bdrl-userbot?logo=github&style=for-the-badge" /></a>
+    <a href="https://github.com/Yansaii/Bdrl-Userbot/commits/Bdrl-Userbot"><img src="https://img.shields.io/github/last-commit/Yansaii/Bdrl-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
+    <a href="https://github.com/Yansai/Bdrl-Userbot"> <img src="https://img.shields.io/github/repo-size/Yansaii/Bdrl-Userbot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
     </p>
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg">
+  <img src="https://telegra.ph/file/6ff3f7d3258d7a0b412e7.jpg">
 </p>
 
 
@@ -45,5 +45,5 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 *   [Kyy](https://github.com/muhammadrizky16/Kyy-Userbot)   Kyy - Userbot
 *   [Sendi](https://github.com/SendiAp/Rose-Userbot)   Rose-Userbot
 *   [Skyzu](https://github.com/Skyzu/skyzu-userbot)   skyzu-userbot
-*   [BDRL](https://github.com/Yansaii/Bdrl-userbot)   Bdrl-userbot
+*   [BDRL](https://github.com/Yansaii/Bdrl-Uerbot)   Bdrl-userbot
 *   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
