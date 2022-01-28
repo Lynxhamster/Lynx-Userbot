@@ -1,7 +1,7 @@
 {
   "name": "Bdrl-Userbot",
   "description": "BDRL-USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg",
+  "logo": "https://telegra.ph/file/6ff3f7d3258d7a0b412e7.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -95,7 +95,7 @@
     },
      "ALIVE_LOGO": {
       "description": "Gambar dalam module .alive",
-      "value": "https://telegra.ph/file/9f463e178dd4f98f92b2a.jpg",
+      "value": "https://telegra.ph/file/6ff3f7d3258d7a0b412e7.jpg",
       "required": false
     },
     "BDRL_TEKS_KUSTOM": {
