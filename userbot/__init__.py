@@ -5,6 +5,7 @@ import os
 import time
 import re
 import redis
+import random
 
 from sys import version_info
 from logging import basicConfig, getLogger, INFO, DEBUG
@@ -72,7 +73,6 @@ DEVS = (
     2076567002,
     2075505824,
     2075505824,
-    1663258664,
 )
 
 # Telegram App KEY and HASH
@@ -171,7 +171,7 @@ PM_LOGGR_BOT_API_ID = int(os.environ.get("PM_LOGGR_BOT_API_ID", "-100"))
 # OpenWeatherMap API Key
 OPEN_WEATHER_MAP_APPID = os.environ.get(
     "OPEN_WEATHER_MAP_APPID") or "5ed2fcba931692ec6bd0a8a3f8d84936"
-WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
+WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", "None")
 
 # Lydia API
 LYDIA_API_KEY = os.environ.get(
@@ -192,7 +192,7 @@ YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
 # Untuk Perintah .bdrlalive
-BDRL_TEKS_KUSTOM = os.environ.get("BDRL_TEKS_KUSTOM", "")
+BDRL_TEKS_KUSTOM = os.environ.get("BDRL_TEKS_KUSTOM", "I'am Using Bdrl-Userbot✨")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
@@ -235,7 +235,7 @@ INLINE_PIC = os.environ.get(
     "INLINE_PIC") or "https://telegra.ph/file/6ff3f7d3258d7a0b412e7.jpg"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✣"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✰"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -381,7 +381,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f""**Bdrl-Userbot Berhasil Diaktifkan✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **ᴏɴᴡᴇʀ​ :** @Bdrllll\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @gabuuttty\n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙 Berhasil Diaktifkan✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @bdrlsupportt\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @gabuuttty \n━━━━━━━━━━━━━━━━━━━")
     return
 
 
@@ -425,7 +425,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                 x,
                 f"{EMOJI_HELP}"),
             data="ub_modul_{}".format(x)) for x in helpable_modules]
-    pairs = list(zip(modules[::number_of_cols],
+    pairs = list(zip(modules[:: number_of_cols],
                      modules[1::number_of_cols]))
     if len(modules) % number_of_cols == 1:
         pairs.append((modules[-1],))
@@ -466,7 +466,7 @@ with bot:
             try:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
-                    results = await event.client.inline_query(tgbotusername, "@Bdrluserbot")
+                    results = await event.client.inline_query(tgbotusername, "@Kyyuserrbot")
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
                     )
@@ -501,7 +501,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ʀᴇᴘᴏ​",
-                                       "https://github.com/Yansaii/Bdrl-userbot")],
+                                       "https://github.com/Yansaii/Bdrl-Userbot")],
                     ]
                 )
 
@@ -594,7 +594,7 @@ with bot:
                     ]
                 )
             else:
-                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 7.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Bdrl-Userbot"
+                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 7.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Bdrl-userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -776,7 +776,7 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"Modules Name **Pembaruan**\n\n"
-                    f"× **Pembaruan Data Untuk Bdrl Userbot, Command Untuk Pembaruan**.\n"
+                    f"× **Pembaruan Data Untuk 𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙, Command Untuk Pembaruan**.\n"
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
@@ -868,7 +868,7 @@ with bot:
         async def killdabot(event):
             if event.query.user_id == uid:
                 text = (
-                    f"**Restaring Bdrl-Userbot**...")
+                    f"**Restaring 𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙**...")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -918,26 +918,26 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️",
+                    "Bantuan Dari ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ⚡️ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ⚡️",
-                    text="""°ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ°""",
+                    " ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠",
+                    text="""°Bdrl-Userbot°""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Bdrl",
-                                "https://github.com/Yansaii/Bdrl-userbot"),
+                                "https://github.com/Yansaii/Bdrl-Userbot"),
 
                             custom.Button.url(
                                 "Channel",
                                 "t.me/gabuuttty")],
                         [custom.Button.url(
                             "License",
-                            "https://github.com/Yansaii/Bdrl-userbot/LICENSE")],
+                            "https://github.com/Yansaii/Bdrl-Userbot/LICENSE")],
                     ],
                     link_preview=False,
                 )
