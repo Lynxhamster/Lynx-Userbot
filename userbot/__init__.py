@@ -594,7 +594,7 @@ with bot:
                     ]
                 )
             else:
-                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 7.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Bdrl-userbot"
+                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 7.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Bdrl-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
