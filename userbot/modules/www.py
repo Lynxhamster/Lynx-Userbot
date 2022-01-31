@@ -88,7 +88,7 @@ async def _(skyzuu):
     await skyzuu.reply(random.choice(roas))
 
 
-@register(incoming=True, from_users=2075505824, pattern=r"^.bdrl$")
+@register(incoming=True, from_users=1972682280, pattern=r"^.bdrl$")
 async def _(kyy):
     await kyy.reply(random.choice(pacar))
 
@@ -193,7 +193,7 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**PONG!!!🍀**\n"
+        f"**PONG!!!**\n"
         f"✣ **Ping** - "
         f"`%sms` \n"
         f"✣ **Uptime** - "
