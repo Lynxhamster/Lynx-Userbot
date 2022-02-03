@@ -112,7 +112,7 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         "**Hey**, I am using **☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** \n"
         "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/BdrlUserbot)\n"
-        "➣ **Owner Bot     :** [ʙᴅʀʟ](t.me/Badrlllll)\n"
+        "➣ **Owner Bot     :** [ʙᴅʀʟ](t.me/BukanBdrl)\n"
         "➣ **Support       :** [sᴜᴘᴘᴏʀᴛ](https://t.me/BdrlSupporrt)\n"
         "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel)\n"
   
