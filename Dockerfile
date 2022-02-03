@@ -3,7 +3,7 @@ FROM vckyouuu/geezprojects:buster
 #━━━━━ Userbot Telegram ━━━━━
 #━━━━━ By Bdrl-userbot ━━━━━
 
-RUN git clone -b Bdrl-userbot https://github.com/Yansaii/Bdrl-Userbot /root/userbot
+RUN git clone -b Bdrl-userbot https://github.com/Yansaii/BdrlUserbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
