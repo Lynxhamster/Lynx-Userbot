@@ -111,12 +111,11 @@ async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
         "**Hey**, I am using **☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** \n"
-        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/Bdrl-Userbot)\n"
-        "➣ **Owner Bot       :** [ʙᴅʀʟ](t.me/Badrlllll)\n"
-        "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/bdrlsupportt)\n"
-        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel)\n"
-        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
+        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/BdrlUserbot)\n"
+        "➣ **Owner Bot     :** [ʙᴅʀʟ](t.me/Badrlllll)\n"
+        "➣ **Support       :** [sᴜᴘᴘᴏʀᴛ](https://t.me/BdrlSupporrt)\n"
+        "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel)\n"
+  
     )
 
 
