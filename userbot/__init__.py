@@ -381,7 +381,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙 Berhasil Diaktifkan✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @bdrlsupportt\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @gabuuttty \n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙 Berhasil Diaktifkan✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @BdrlSupporrt\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @TvoChanel \n━━━━━━━━━━━━━━━━━━━")
     return
 
 
@@ -501,7 +501,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ʀᴇᴘᴏ​",
-                                       "https://github.com/Yansaii/Bdrl-Userbot")],
+                                       "https://github.com/Yansaii/BdrlUserbot")],
                     ]
                 )
 
@@ -512,7 +512,7 @@ with bot:
             if event.message.from_id != uid:
                 await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"{START_WELCOME}\n\n**Powered By** : @Bdrllll\n\n",
+                    f"{START_WELCOME}\n\n**Powered By** : @BukanBdrl\n\n",
                     buttons=[
                         [
                             custom.Button.inline(
@@ -546,7 +546,7 @@ with bot:
             event.builder
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@Bdrllll"):
+                    "@BukanBdrl"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME} "
                 await event.edit(text,
@@ -584,7 +584,7 @@ with bot:
                     f"❁ __Saya Adalah Bdrl Userbot Yang Digunakan Banyak User Telegram__.\n\n"
                     f"❁ __Saya Dibuat Hanya Untuk Bersenang Senang Ditelegram__.\n\n"
                     f"❁ __Kelebihan Saya Banyak, Saya Mempunyai 1816 Modules__.\n\n"
-                    f"© @Bdrllll")
+                    f"© @BukanBdrl")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -594,7 +594,7 @@ with bot:
                     ]
                 )
             else:
-                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 7.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Bdrl-Userbot"
+                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 7.0\n🛠 Modules : {len(plugins)}\n✨ Branch : BdrlUserbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -662,7 +662,7 @@ with bot:
                     f"°__Mengubah Foto Alive Kamu, Yang Kamu Inginkan__.\n\n"
                     f"× `.set var BDRL_TEKS_KUSTOM` [**TEKS**]\n"
                     f"°__Mengganti Teks Yang Ada Command bdrlAlive__.\n\n"
-                    f"© @Bdrllll")
+                    f"© @BukanBdrl")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -692,7 +692,7 @@ with bot:
                     f"°__Mengaktifkan Pmpermit Kalian Atau Disebut Pesan Otomatis__.\n\n"
                     f"× `.set pm_msg` [**REPLYCHAT**]\n"
                     f"°__Mengganti Teks Pmpermit Selera Kamu__.\n\n"
-                    f"© @Bdrllll")
+                    f"© @BukanBdrl")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -722,7 +722,7 @@ with bot:
                     f"°__Mengubah Emoji Inline Yang Ada Dicomand__ `.helpme`\n\n"
                     f"× `.set var INLINE_PIC` [**LINK**]\n"
                     f"°__Mengubah Foto Yang Ada Dicomand__ `.helpme`\n\n"
-                    f"© @Bdrllll")
+                    f"© @BukanBdrl")
                 await event.edit(
                     text,
                     file=kyulogo,
@@ -750,7 +750,7 @@ with bot:
                     f"Modules Name **pmbot**\n\n"
                     f"× `.set var START_WELCOME` [**TEKS**] \n"
                     f"°__Kamu Juga Bisa Mengubah Start Welcome Untuk Bot Kamu Yang Ini, Dengan Cara Diatas Dan Kata Kata Bebas__.\n\n"
-                    f"© @Bdrllll")
+                    f"© @BukanBdrl")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -780,7 +780,7 @@ with bot:
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
-                    f"© @Bdrllll")
+                    f"© @BukanBdrl")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -845,7 +845,7 @@ with bot:
                     f"**|**  [`{percentage}`**%**]\n"
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╚════════════════════╝"
-                    f"© @Bdrllll")
+                    f"© @BukanBdrl")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -896,7 +896,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴄʜᴀɴɴᴇʟ",
-                                       "t.me/gabuuttty")],
+                                       "t.me/TvoChanel")],
                     ]
                 )
 
@@ -925,19 +925,19 @@ with bot:
             else:
                 result = builder.article(
                     " ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠",
-                    text="""°Bdrl-Userbot°""",
+                    text="""°BdrlUserbot°""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Bdrl",
-                                "https://github.com/Yansaii/Bdrl-Userbot"),
+                                "https://github.com/Yansaii/BdrlUserbot"),
 
                             custom.Button.url(
                                 "Channel",
                                 "t.me/gabuuttty")],
                         [custom.Button.url(
                             "License",
-                            "https://github.com/Yansaii/Bdrl-Userbot/LICENSE")],
+                            "https://github.com/Yansaii/BdrlUserbot/LICENSE")],
                     ],
                     link_preview=False,
                 )
@@ -974,9 +974,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈",
-                                       "t.me/bdrlsupportt"),
+                                       "t.me/BdrlSupporrt"),
                             Button.url("❈ᴄʜᴀɴɴᴇʟ❈",
-                                       "t.me/gabuuttty")],
+                                       "t.me/TvoChanel")],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],
                         [custom.Button.inline(
