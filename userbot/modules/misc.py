@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[Repo](https://github.com/Yansaii/Bdrl-Userbot/blob/Bdrl-Userbot/README.md)"
+        "\n[Repo](https://github.com/Yansaii/BdrlUserbot/blob/BdrlUserbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
