@@ -220,7 +220,7 @@ async def upstream(event):
         else:
             await event.edit(changelog_str)
         return await event.respond(
-            "**\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy` \n\n__Untuk Meng Update Fitur Terbaru Dari ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠.__"
+            "\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy` \n\n__Untuk Meng Update Fitur Terbaru Dari ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠.__"
         )
 
     if force_update:
