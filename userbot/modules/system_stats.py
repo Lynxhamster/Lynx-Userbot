@@ -238,7 +238,7 @@ async def amireallyalive(alive):
         f"◙ `Bot Ver    :` {BOT_VER} \n"
         f"◙ `Modules    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/bdrlsupportt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/gabuuttty) | [ᴏᴡɴᴇʀ](https://t.me/Bdrllll) | [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/Bdrl-userbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/BdrlSupporrt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel) | [ᴏᴡɴᴇʀ](https://t.me/BukanBdrl) | [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/BdrlUserbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -259,13 +259,13 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:kyyon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:bdrlon)\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ʙᴅʀʟ](t.me/Bdrllll) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ʙᴅʀʟ](t.me/BukanBdrl) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ](https://github.com/Yansaii/Bdrl-userbot) \n"
-        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/gabuuttty) \n"
-        f"┣  `Owner    :` [ʙᴅʀʟ](https://t.me/Bdrllll) \n"
+        f"┣  `GitHub   :` [ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ](https://github.com/Yansaii/BdrlUserbot) \n"
+        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel) \n"
+        f"┣  `Owner    :` [ʙᴅʀʟ](https://t.me/BukanBdrl) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
