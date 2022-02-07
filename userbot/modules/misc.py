@@ -1,6 +1,6 @@
 from random import randint
 from time import sleep
-from os import execl
+from os import environ, execle
 import asyncio
 import sys
 import os
@@ -19,7 +19,7 @@ from PIL import Image
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 REPOLINK = str(
-    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/Yansaii/Bdrl-userbot"
+    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/Yansaii/BdrlUserbot"
 # ============================================
 
 opener = urllib.request.build_opener()
@@ -76,11 +76,9 @@ async def killdabot(event):
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTARTBOT \n"
                                         "`Userbot Telah Di Restart`")
-    await bot.disconnect()
     # Spin a new instance of bot
-    execl(sys.executable, sys.executable, *sys.argv)
-    # Shut the existing one down
-    exit()
+    args = [sys.executable, "-m", "userbot"]
+    execle(sys.executable, *args, environ)
 
 
 @register(outgoing=True, pattern="^.readme$")
@@ -112,10 +110,9 @@ async def repo_is_here(wannasee):
     await wannasee.edit(
         "**Hey**, I am using **☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** \n"
         "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/BdrlUserbot)\n"
-        "➣ **Owner Bot     :** [ʙᴅʀʟ](t.me/BukanBdrl)\n"
+        "➣**Owner Bot     :** [Bdrl](t.me/BukanBdrl)\n"
         "➣ **Support       :** [sᴜᴘᴘᴏʀᴛ](https://t.me/BdrlSupporrt)\n"
         "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel)\n"
-  
     )
 
 
@@ -123,7 +120,8 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        f"➣ **GET STRING SESSION TELEGRAM :** [KLIK DISINI](https://replit.com/@rizkyhmdanii16/StringSession)\n"
+        f"➣ **GET STRING SESSION VIA REPLIT :** [KLIK DISINI](https://replit.com/@rizkyhmdanii16/StringSession)\n"
+        f"➣ **GET STRING SESSION VIA BOT    :** [KLIK DISINI](https://t.me/NastyStringbot)\n"
     )
 
 
