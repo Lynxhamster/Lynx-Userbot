@@ -3,7 +3,7 @@
 # Copyright © Team RAM - UBOT
 # Hush Hush Sana ajg gausah kesini
 # Si ngentot, Kalo ngefork Jangan hapus kredit babi!!
-# Dor bdrl mau credit laa juga
+# Dor ouraa mau credit laa juga
 
 from telethon.tl import functions
 from telethon.tl.functions.messages import GetFullChatRequest
