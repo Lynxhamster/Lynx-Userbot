@@ -57,7 +57,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if HEROKU_APP_NAME is None:
             await event.edit(
                 "`[HEROKU]: Harap Siapkan Variabel` **HEROKU_APP_NAME** `"
-                " untuk dapat deploy perubahan terbaru dari ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠.`"
+                " untuk dapat deploy perubahan terbaru dari ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡.`"
             )
             repo.__del__()
             return
@@ -97,14 +97,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             return await event.delete()
         else:
             await event.edit(
-                "`Bdrl-Userbot Berhasil DiUpdate,Restart Tunggu Sebentar`"
+                "`Ouraaa-Userbot Berhasil DiUpdate,Restart Tunggu Sebentar`"
             )
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
-                BOTLOG_CHATID, "#BOT \n" "`☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠ Berhasil Di Update`"
+                BOTLOG_CHATID, "#BOT \n" "`⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡ Berhasil Di Update`"
             )
 
     else:
@@ -122,9 +122,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit("**☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** `Berhasil Di Update!`")
+    await event.edit("**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡** `Berhasil Di Update!`")
     await asyncio.sleep(1)
-    await event.edit("**☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** `Di Restart....`")
+    await event.edit("**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡** `Di Restart....`")
     await asyncio.sleep(1)
     await event.edit("`Mohon Menunggu Beberapa Detik.`")
     await asyncio.sleep(10)
@@ -132,7 +132,7 @@ async def update(event, repo, ups_rem, ac_br):
 
     if BOTLOG:
         await event.client.send_message(
-            BOTLOG_CHATID, "#BOT \n" "**☠𝔅𝔡𝔯𝔩-𝔘𝔰𝔢𝔯𝔟𝔬𝔱☠ Telah Di Perbarui.**"
+            BOTLOG_CHATID, "#BOT \n" "**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡ Telah Di Perbarui.**"
         )
         await asyncio.sleep(100)
         await event.delete()
@@ -196,7 +196,7 @@ async def upstream(event):
 
     if changelog == "" and force_update is False:
         await event.edit(
-            f"\n☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠ Sudah Versi Terbaru\n"
+            f"\n⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡ Sudah Versi Terbaru\n"
         )
         await asyncio.sleep(15)
         await event.delete()
@@ -204,7 +204,7 @@ async def upstream(event):
 
     if conf is None and force_update is False:
         changelog_str = (
-            f"**Pembaruan Untuk ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠ :\n\n⚒️ Pembaruan Data :**\n`{changelog}`"
+            f"**Pembaruan Untuk ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡ :\n\n⚒️ Pembaruan Data :**\n`{changelog}`"
         )
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
@@ -220,7 +220,7 @@ async def upstream(event):
         else:
             await event.edit(changelog_str)
         return await event.respond(
-            "\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy` \n\n__Untuk Meng Update Fitur Terbaru Dari ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠.__"
+            "\n 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: >`.update deploy` \n\n__Untuk Meng Update Fitur Terbaru Dari ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡.__"
         )
 
     if force_update:
@@ -228,13 +228,13 @@ async def upstream(event):
             "`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`"
         )
     else:
-        await event.edit("` Proses Update ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠, Loading....1%`")
-        await event.edit("` Proses Update ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠, Loading....20%`")
-        await event.edit("` Proses Update ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠, Loading....35%`")
-        await event.edit("` Proses Update ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠, Loading....77%`")
-        await event.edit("` Proses Update ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠, Updating...90%`")
+        await event.edit("` Proses Update ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡, Loading....1%`")
+        await event.edit("` Proses Update ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡, Loading....20%`")
+        await event.edit("` Proses Update ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡, Loading....35%`")
+        await event.edit("` Proses Update ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡, Loading....77%`")
+        await event.edit("` Proses Update ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡, Updating...90%`")
         await event.edit(
-            "` Proses Update ☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠, Mohon Tunggu Sebentar....100%`"
+            "` Proses Update ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡, Mohon Tunggu Sebentar....100%`"
         )
 
     if conf == "now":
@@ -251,10 +251,10 @@ async def upstream(event):
 CMD_HELP.update(
     {
         "update": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update`"
-        "\n• : Untuk Melihat Pembaruan Terbaru Bdrl-Userbot."
+        "\n• : Untuk Melihat Pembaruan Terbaru Ouraaa-Userbot."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update now`"
-        "\n• : Memperbarui Bdrl-Userbot."
+        "\n• : Memperbarui Ouraaa-Userbot."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.update deploy`"
-        "\n• : Memperbarui Bdrl-Userbot Dengan Cara Men-Deploy Ulang."
+        "\n• : Memperbarui Ouraaa-Userbot Dengan Cara Men-Deploy Ulang."
     }
 )
