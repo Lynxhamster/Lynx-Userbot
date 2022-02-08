@@ -1,7 +1,7 @@
 {
-  "name": "Bdrl-Userbot",
- "description": "BDRL -USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/ed9e2a1f372db927edb47.jpg",
+  "name": "Ouraaa-Userbot",
+ "description": "OURAA -USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/cb787d78795d6e6a29530.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Yansaii/BdrlUserbot/BdrlUserbot",
-  "telegram": "https://t.me/BukanBdrl",
+  "repository": "https://github.com/Oura-Ubot/Ouraaa-Userbot/Ouraaa-Userbot",
+  "telegram": "https://t.me/Ekojuuuuu",
   "success_url": "https://t.me/BdrlSupporrt",
   "stack": "container",
   "env": {
@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "Gambar dalam module .alive",
-      "value": "https://telegra.ph/file/ed9e2a1f372db927edb47.jpg",
+      "value": "https://telegra.ph/file/cb787d78795d6e6a29530.jpg",
       "required": false
     },
      "STRING_SESSION": {
