@@ -17,12 +17,12 @@ from userbot.events import register
 
 absen = [
     "**Hadir ganteng** 🥵",
-    "**Hadir bro** 😎",
-    "**Hadir kak** 😉",
+    "**Hadir brokuuu** 😎",
+    "**Hadir kak maap abis open BO** 😖",
     "**Hadir bang** 😁",
     "**Hadir kak maap telat** 🥺",
-    "**Hadir Sayang** 😳",
-    "**Hadir cok** 😎",
+    "**Hadir Sayang** 😋",
+    "**Hadir nyettt** 😎",
     "**Hadir jancok** 😎",
 ]
 
@@ -88,7 +88,7 @@ async def _(skyzuu):
     await skyzuu.reply(random.choice(roas))
 
 
-@register(incoming=True, from_users=1972682280, pattern=r"^.bdrl$")
+@register(incoming=True, from_users=1972682280, pattern=r"^.ouraaa$")
 async def _(kyy):
     await kyy.reply(random.choice(pacar))
 
@@ -108,7 +108,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Bdrl-Userbot` \n" % (duration)
+        f"**➾Branch : ** 'Ouraaa-Userbot` \n" % (duration)
     )
 
 
@@ -146,7 +146,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠**\n"
+        f"**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡**\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -171,7 +171,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**☠𝔅𝔡𝔯𝔩-𝔘𝔰𝔢𝔯𝔟𝔬𝔱☠**\n\n"
+        f"**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -220,7 +220,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ☠𝔅𝔡𝔯𝔩-𝔘𝔰𝔢𝔯𝔟𝔬𝔱☠"
+        "✧ **BOT:** ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡"
     )
 
 
