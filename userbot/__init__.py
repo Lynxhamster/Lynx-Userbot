@@ -219,7 +219,7 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Bdrl-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Ouraaa-Userbot")
 
 # Bot Version
 BOT_VER = os.environ.get("BOT_VER", "7.0")
@@ -903,7 +903,7 @@ with bot:
         async def killdabot(event):
             if event.query.user_id == uid:
                 text = (
-                    f"**Restaring Bdrl-Userbot**...")
+                    f"**Restaring Ouraaa-Userbot**...")
                 await event.edit(
                     text,
                     file=kyylogo,
