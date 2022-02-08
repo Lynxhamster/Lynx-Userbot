@@ -19,7 +19,7 @@ from PIL import Image
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 REPOLINK = str(
-    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/Yansaii/BdrlUserbot"
+    UPSTREAM_REPO_URL) if UPSTREAM_REPO_URL else "https://github.com/Oura-Ubot/Ouraaa-Userbot"
 # ============================================
 
 opener = urllib.request.build_opener()
@@ -85,7 +85,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[Repo](https://github.com/Yansaii/BdrlUserbot/blob/BdrlUserbot/README.md)"
+        "\n[Repo](https://github.com/Oura-Ubot/Ouraaa-Userbot/blob/Ouraaa-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -108,11 +108,11 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** \n"
-        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/BdrlUserbot)\n"
-        "➣**Owner Bot     :** [Bdrl](t.me/BukanBdrl)\n"
+        "**Hey**, I am using **⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡** \n"
+        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Oura-Ubot/Ouraaa-Userbot)\n"
+        "➣**Owner Bot     :** [Ouraaa](t.me/Ekojuuuuu)\n"
         "➣ **Support       :** [sᴜᴘᴘᴏʀᴛ](https://t.me/BdrlSupporrt)\n"
-        "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel)\n"
+        "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/myventtt)\n"
     )
 
 
@@ -272,13 +272,13 @@ CMD_HELP.update({
     \n↳ : Dapatkan item acak dari daftar item.",
     "sleep": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sleep <seconds>`\
     \n↳ : `.sleep`\
-    \n  •  **Function : Biarkan Bdrl-Userbot tidur selama beberapa detik.",
+    \n  •  **Function : Biarkan Ouraaa-Userbot tidur selama beberapa detik.",
     "shutdown": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.shutdown`\
     \n↳ : Mematikan bot",
     "repo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repo`\
-    \n↳ : Menampilan link Repository Bdrl-Userbot.",
+    \n↳ : Menampilan link Repository Ouraaa-Userbot.",
     "string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.string`\
-    \n↳: Menampilkan link String Bdrl-Userbot",
+    \n↳: Menampilkan link String Ouraaa-Userbot",
     "readme": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `.readme`\
     \n↳ : Menyediakan tautan untuk mengatur userbot dan modulnya.",
     "repeat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repeat <no> <text>`\
