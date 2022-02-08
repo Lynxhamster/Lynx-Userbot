@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠ Versi:** \n "
-            f"heads/𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙-0-x634i7u1"
+            "**⚜-**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡ Versi:** \n "
+            f"heads/OURA-UBOT-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -228,8 +228,8 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** \n\n"
-        f"\n__**{BDRL_TEKS_KUSTOM}**__\n\n\n"
+        f" **⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡** \n\n"
+        f"\n__**{OURA_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"◙ `Name       :` {DEFAULTUSER} \n"
         f"◙ `Username   :` @{user.username} \n"
@@ -238,7 +238,7 @@ async def amireallyalive(alive):
         f"◙ `Bot Ver    :` {BOT_VER} \n"
         f"◙ `Modules    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/BdrlSupporrt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel) | [ᴏᴡɴᴇʀ](https://t.me/BukanBdrl) | [ɢɪᴛʜᴜʙ](https://github.com/Yansaii/BdrlUserbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/BdrlSupporrt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/myventtt) | [ᴏᴡɴᴇʀ](https://t.me/Ekojuuuuu) | [ɢɪᴛʜᴜʙ](https://github.com/Oura-Ubot/Ouraaa-Userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -265,7 +265,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[ʙᴅʀʟ](t.me/BukanBdrl) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[OURA](t.me/Ekojuuuuu) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ](https://github.com/Yansaii/BdrlUserbot) \n"
+        f"┣  `GitHub   :` [ᴏᴜʀᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/Oura-Ubot/Ouraaa-Userbot) \n"
         f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel) \n"
-        f"┣  `Owner    :` [ʙᴅʀʟ](https://t.me/BukanBdrl) \n"
+        f"┣  `Owner    :` [ᴏᴜʀᴀ](https://t.me/Ekojuuuuu) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
