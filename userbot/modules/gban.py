@@ -69,9 +69,9 @@ async def handler(tele):
                                 tele.chat_id, guser.id, view_messages=False
                             )
                             await tele.reply(
-                                f"**Pengguna Gban Telah Bergabung** \n"
-                                f"**Pengguna**: [{guser.id}](tg://user?id={guser.id})\n"
-                                f"**Aksi**  : `Global Banned`"
+                                f"**JAMET SOK IYE TELE MAMPUS KAN LU** \n"
+                                f"**User**: [{guser.id}](tg://user?id={guser.id})\n"
+                                f"**Status**  : `Global Banned`"
                             )
                         except BaseException:
                             return
