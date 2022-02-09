@@ -88,10 +88,10 @@ async def delete_it(delme):
             """
             if BOTLOG:
                 await delme.client.send_message(
-                    BOTLOG_CHATID, "`Berhasil Menghapus Pesan ⛧`")
+                    BOTLOG_CHATID, "`Kenangan Berhasil Di Hapus ⛧`")
             """
         except rpcbaseerrors.BadRequestError:
-            await delme.edit("`Tidak Bisa Menghapus Pesan`")
+            await delme.edit("`Awikwok Gabisa Hapus Kenangan`")
             """
             if BOTLOG:
                 await delme.client.send_message(
