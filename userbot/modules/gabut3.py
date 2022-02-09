@@ -48,5 +48,5 @@ CMD_HELP.update({
     \n\n Cmd : `.aliangsi`\
     \nUsage : ROASTING ALIANSI TAI\
     \n\n Cmd : `.slipcrot`\
-    \nUsage : CEK AJA SENDIRI
+    \nUsage : CEK AJA SENDIRI\
 })
