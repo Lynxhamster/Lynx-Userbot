@@ -60,6 +60,4 @@ CMD_HELP.update({
     \nUsage : ROASTING ALIANSI TAI\
     \n\n Cmd : `.slipcrot`\
     \nUsage : CEK AJA SENDIRI
-    \n\n Cmd : `.babu`\
-    \nUsage : ROAST BABU
 })
