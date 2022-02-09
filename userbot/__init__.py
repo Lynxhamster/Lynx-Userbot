@@ -379,7 +379,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @BdrlSupporrt and Channel @TvoChanel to see the updates of userbot"
+            "Join Support Group @Markettblack and Channel @Market_Userbot to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -873,7 +873,7 @@ with bot:
                     apps.get('quota_used') * 100 / quota)
                 text = (
                     "✨ **ɪɴꜰᴏʀᴍᴀsɪ ᴅʏɴᴏ ʜᴇʀᴏᴋᴜ :**\n"
-                    "╔════════════════════╗\n"
+                    "╭┈─╼═════════════════╾─┈╮\n"
                     f" ☂ **ᴘᴇɴɢɢᴜɴᴀ ᴅʏɴᴏ sᴀᴀᴛ ɪɴɪ :**\n"
                     f"  ➽  `{AppHours}`**ᴊᴀᴍ**  `{AppMinutes}`**ᴍᴇɴɪᴛ**  "
                     f"**|**  [`{AppPercentage}`**%**]"
@@ -882,8 +882,8 @@ with bot:
                     f"  ➽  `{hours}`**ᴊᴀᴍ**  `{minutes}`**ᴍᴇɴɪᴛ**  "
                     f"**|**  [`{percentage}`**%**]\n"
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
-                    "\n╚════════════════════╝"
-                    f"© @")
+                    "\n╰┈─╼═════════════════╾─┈╯"
+                    f"© @Ekojuuuuu")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -934,7 +934,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴄʜᴀɴɴᴇʟ",
-                                       "t.me/TvoChanel")],
+                                       "t.me/Market_Userbot")],
                     ]
                 )
 
@@ -1012,9 +1012,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈",
-                                       "t.me/BdrlSupporrt"),
+                                       "t.me/Market_Userbot"),
                             Button.url("❈ᴄʜᴀɴɴᴇʟ❈",
-                                       "t.me/TvoChanel")],
+                                       "t.me/Markettblack")],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],
                         [custom.Button.inline(
