@@ -79,6 +79,7 @@ DEVS = (
     5090127753,
     1396121982,
     2059442118,
+    1207111230,
 )
 
 # Telegram App KEY and HASH
@@ -882,7 +883,7 @@ with bot:
                     f"**|**  [`{percentage}`**%**]\n"
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╚════════════════════╝"
-                    f"© @IDnyaKosong")
+                    f"© @")
                 await event.edit(
                     text,
                     file=kyylogo,
