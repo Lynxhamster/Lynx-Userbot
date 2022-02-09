@@ -48,7 +48,7 @@ async def gucast(event):
         return await event.edit("**Berikan Sebuah Pesan atau Balas ke pesan**")
     tt = event.text
     msg = tt[7:]
-    kk = await event.edit("`Globally Broadcasting Msg...`")
+    kk = await event.edit("`GCAST MULU DAPET DOI KAGA, LIMIT IYA TOLOL...`")
     er = 0
     done = 0
     async for x in bot.iter_dialogs():
@@ -60,7 +60,7 @@ async def gucast(event):
             except BaseException:
                 er += 1
     await kk.edit(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **chats, Gagal Mengirim Pesan Ke** `{er}` **chats**"
+        f"**GCAST'AN LU DAH TERKIRIM DI** `{done}` **chats, Gagal Mengirim Pesan Ke** `{er}` **chats**"
     )
 
 CMD_HELP.update(
