@@ -70,7 +70,7 @@ async def killdabot(event):
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`Restarting Bdrl-Userbot...`")
+    await event.edit("`⚡𝘖𝘶𝘳𝘢𝘢𝘢-𝘜𝘴𝘦𝘳𝘣𝘰𝘵⚡ Sedang Restart Sabar ya setan...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
