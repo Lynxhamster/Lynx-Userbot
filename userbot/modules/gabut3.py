@@ -41,17 +41,6 @@ async def perkenalan(event):
 # Perkenalan
 
 
-@register(outgoing=True, pattern="^.babu(?: |$)(.*)")
-async def perkenalan(event):
-    event.pattern_match.group(1)
-    await event.edit(f"*HALO BABU KU SEMUA APA KABAR?*")
-    sleep(2)
-    await event.edit(f"*MUDAH-MUDAH SEHAT YA 😎*")
-    sleep(2)
-    await event.edit("*KALO GAPUNYA DUIT MINTA KE GUA AJA*")
-    sleep(2)
-    await event.edit("*GUA KAN MAJIKAN LO !!*")
-
 CMD_HELP.update({
     "Gabut aja": "**Modules** - `DI PAKE YA!!`\
     \n\n Cmd : `.senggol`\
