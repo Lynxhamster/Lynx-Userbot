@@ -137,6 +137,12 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**MENTANG MENTANG PUNYA BOT MAINNYA BOT!!TAPI BAGUS LAH, LANJUTKANN SAYANG**")
+    
+    
+    @register(outgoing=True, pattern='^.x(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**GIKES AJA TERUS MEMEK, DAPET GIPEWE KAGAK PERNAH KONTOL!!**")
 
 
 CMD_HELP.update({
@@ -184,5 +190,7 @@ CMD_HELP.update({
 \n\n h\
 \nUsage: Kecantikan.\
 \n\n o\
-\nUsage: Ngatain org norak."
+\nUsage: Ngatain org norak.\
+\n\n x\
+\nUsage: membela diri.
 })
