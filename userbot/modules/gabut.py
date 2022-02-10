@@ -31,13 +31,13 @@ async def perkenalan(event):
 @register(outgoing=True, pattern="^.perkenalan(?: |$)(.*)")
 async def perkenalan(event):
     event.pattern_match.group(1)
-    await event.edit(f"`Hai Guys , Perkenalkan Nama Gw {DEFAULTUSER}`")
+    await event.edit(f"`Hallo kontllll , Perkenalkan Nama Aing {DEFAULTUSER}`")
     sleep(2)
     await event.edit(f"`Gw Tinggal Di {WEATHER_DEFCITY}`")
     sleep(2)
-    await event.edit("`Salam Kenal...`")
+    await event.edit("`Salam Kenal Ya Ngentottttt...`")
     sleep(2)
-    await event.edit("`Udah Gitu Aja :v`")
+    await event.edit("`Udah Si Gitu Aja hahaha... :v`")
 # Perkenalan
 
 
