@@ -192,5 +192,5 @@ CMD_HELP.update({
 \n\n o\
 \nUsage: Ngatain org norak.\
 \n\n x\
-\nUsage: Anak setan kontol.\
+\nUsage: Anak setan kontol."
 )
