@@ -127,10 +127,10 @@ async def typewriter(typew):
     await typew.edit("**MANA SOALNYA ANJENG!!! LAMA BAT KONTOLLL**")
 
 
-@register(outgoing=True, pattern='^.hz(?: |$)(.*)')
+@register(outgoing=True, pattern='^.op(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**KALO PELAKOR MAU DI APAIN NICH???**")
+    await typew.edit("**PEMERINTAH OP ABIEZZZ🔥 ADA LAWAN KAH NYET? 😏**")
 
 
 @register(outgoing=True, pattern='^.oz(?: |$)(.*)')
@@ -181,7 +181,7 @@ CMD_HELP.update({
 \nUsage: Kecakepan.\
 \n\n.yz\
 \nUsage: teruntuk orang stres.\
-\n\n.hz\
+\n\n.op\
 \nUsage: Kepedean.\
 \n\n.oz\
 \nUsage: Ngatain org gila."
