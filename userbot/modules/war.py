@@ -6,7 +6,7 @@ from userbot.events import register
 @register(outgoing=True, pattern=r"^\.jamet(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**WOII**")
+    await typew.edit("**HEH ANAK ANJENG**")
     sleep(1.5)
     await typew.edit("**JAMET KONTOL**")
     sleep(1.5)
@@ -40,13 +40,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern=r"^\.dp(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MUKA LU HINA, GAUSAH SOK KERAS YA NGENTOT!!**")
+    await typew.edit("**MUKA LU KEK BABI, GAUSAH SOK KERAS YA NGENTOT!!**")
 
 
 @register(outgoing=True, pattern=r"^\.so(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GAUSAH SOKAB SAMA GUA NGENTOT, LU BABU GA LEVEL!!**")
+    await typew.edit("**MONMAAP, SYAPA YA?? GAUSAH SOKAB SAMA GUA NGENTOT, LU BABU GA LEVEL!!**")
 
 
 @register(outgoing=True, pattern=r"^\.nb(?: |$)(.*)")
@@ -88,7 +88,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern=r"^\.ded(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MATI AJA LU GOBLOK, GAGUNA LU HIDUP DI BUMI**")
+    await typew.edit("**MATI KEK LU GOBLOK, GAGUNA LU HIDUP DI BUMI**")
 
 
 @register(outgoing=True, pattern=r"^\.sokab(?: |$)(.*)")
@@ -103,7 +103,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
-        "**MUKA BAPAK LU KEK KELAPA SAWIT ANJING, GA USAH NGATAIN ORANG, MUKA LU AJA KEK GEMBEL TEXAS KONTOL!!**"
+        "**MUKA BAPAK LU KEK PANTAT KORENGAN TOLOL, GA USAH NGATAIN ORANG, MUKA LU AJA KEK GEMBEL TEXAS KONTOL!!**"
     )
 
 
