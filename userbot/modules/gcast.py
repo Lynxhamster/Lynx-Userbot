@@ -20,9 +20,9 @@ async def gcast(event):
     elif event.is_reply:
         msg = await event.get_reply_message()
     else:
-        await event.edit("**Berikan Sebuah Pesan atau Balas ke pesan**")
+        await event.edit("**Ngetikk Yang Benerr Ngentott**")
         return
-    kk = await event.edit("`Globally Broadcasting Msg...`")
+    kk = await event.edit("`Sabarr Yaa Anak Haram, Lagi Gua Kirim, Limit Mampus Lu...`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -37,7 +37,7 @@ async def gcast(event):
             except BaseException:
                 er += 1
     await kk.edit(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**"
+        f"**Udah Gua Kirim tot Ke** `{done}` **Grup, Gagal anjengggg M** `{er}` **Grup**"
     )
 
 
