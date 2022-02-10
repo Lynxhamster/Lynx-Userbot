@@ -13,7 +13,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`JOMBLO`")
     sleep(1)
-    await typew.edit("`Tinggal Di Jawa, Salam Kenal:)`")
+    await typew.edit("`Tinggal Di Mars, Salam Kenal:)`")
 # Create by myself @localheart
 
 
@@ -21,11 +21,11 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Cuma Mau Bilang`")
+    await typew.edit("`Peka Ngapa Gblokkkk`")
     sleep(3)
-    await typew.edit("`Aku Sayang Kamu`")
+    await typew.edit("`Akutuu Sayang Kamuu🥺`")
     sleep(1)
-    await typew.edit("`I LOVE YOU 💞`")
+    await typew.edit("`I LOVE YOU SAYANG 💞`")
 # Create by myself @localheart
 
 
@@ -37,23 +37,23 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("`Tetaplah Menyerah`")
     sleep(1)
-    await typew.edit("`Dan Selalu Bersyukur`")
+    await typew.edit("`Dan Selalu Tidurr`")
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.trio(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gelo(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
     await typew.edit("`Hai saya trio kontolllll `")
     sleep(5)
-    await typew.edit("`perkenalkan saya @aulri biasa di sebut anak haram, lanjut.`")
+    await typew.edit("`perkenalkan saya Papoyy biasa di sebut anak haram, lanjut.`")
     sleep(3)
-    await typew.edit("`saya @zenzuzu2 anak anj`")
+    await typew.edit("`saya zenzuzu2 anak anj`")
     sleep(3)
     await typew.edit("`Dan saya @Ekojuuuuu pria idaman`")
     sleep(1)
-    await typew.edit("`Kami bertiga tolol dan donggo 🥵`")
+    await typew.edit("`Kami bertiga tolol dan donggo, Tapi ngangenin🥵`")
 # Create by myself @localheart
 
 
