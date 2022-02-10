@@ -134,6 +134,35 @@ async def typewriter(typew):
     await typew.edit("**BIAR LO PUNYA KONTOLL**")
     sleep(1.5)
     await typew.edit("**KASIAN CACAD GAPUNYA KONTOLL**")
+    
+    
+    @register(outgoing=True, pattern=r"^\.nembak(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**HEY KAMUUUU**")
+    sleep(1.5)
+    await typew.edit("**BOLEH MINTA WAKTUNYA SEBENTAR GA:(**")
+    sleep(1.5)
+    await typew.edit("**AKU MAU BILANG SESUATU🥺**")
+    sleep(1.5)
+    await typew.edit("**BOLEH GAKKKK???**")
+    sleep(1.5)
+    await typew.edit("**BOLEH YAA....**")
+    sleep(1.5)
+    await typew.edit("**AKUTUUU... EUMM...**")
+    sleep(1.5)
+    await typew.edit("**AKU ANGE KAK🥺**")
+    sleep(1.5)
+    await typew.edit("**EHH EHH BUKAN ITUU😭😭**")
+    sleep(1.5)
+    await typew.edit("**JADII GINII:(**")
+    sleep(1.5)
+    await typew.edit("**KAMU MAU GAK JADI PACAR AKU??😭**")
+    sleep(1.5)
+    await typew.edit("**KALO MAU NANTI AKU AJAK VCS🥺**")
+    sleep(1.5)
+    await typew.edit("**KALO GAMAU MATI AJA KEK LU KONTOL**")
 
 
 CMD_HELP.update({
@@ -146,5 +175,7 @@ CMD_HELP.update({
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.kont`\
     \n↳ : Cobain aja\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.yatim`\
+    \n↳ : Cobain aja\
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.nembak`\
     \n↳ : Cobain aja."
 })
