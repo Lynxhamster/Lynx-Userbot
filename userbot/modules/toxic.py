@@ -147,50 +147,50 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "toxic":
-    "d\
+    f"{cmd}d\
 \nUsage: Bacotin Orang.\
-\n\n e\
+\n\n{cmd}e\
 \nUsage: Buat Orang Yang Sok Keras.\
-\n\n f\
+\n\n{cmd}f\
 \nUsage: Ngatain Orang Wkwkkw.\
-\n\n i\
+\n\n{cmd}i\
 \nUsage: Kontol Orang Ngatain.\
-\n\n r\
+\n\n{cmd}r\
 \nUsage: Pantun Anjing.\
-\n\n t\
+\n\n{cmd}t\
 \nUsage: Nyebutin Binatang.\
-\n\nbu\
+\n\n{cmd}u\
 \nUsage: Biar Dikata Ganteng.\
-\n\n w\
+\n\n{cmd}w\
 \nUsage: Biar Dikata Cantik.\
-\n\n z\
+\n\n{cmd}z\
 \nUsage: Tremor Kan Lu.\
-\n\n k\
+\n\n{cmd}k\
 \nUsage: Memperkenalkan Diri.\
-\n\n n\
+\n\n{cmd}n\
 \nUsage: Menanyakan Kabar.\
-\n\n b\
+\n\n{cmd}b\
 \nUsage: Sok Kepinteran.\
-\n\n m\
+\n\n{cmd}m\
 \nUsage: Gc Nya Kaya kuburan.\
-\n\n c\
+\n\\{cmd}c\
 \nUsage: Dia tuh Ngeyel banget.\
-\n\n s\
+\n\n{cmd}s\
 \nUsage: Haha sokap.\
-\n\n v\
+\n\n{cmd}v\
 \nUsage: Merendah.\
-\n\n a\
+\n\n{cmd}a\
 \nUsage: Nyari Sleep Call.\
-\n\n j\
+\n\n{cmd}j\
 \nUsage: Hujat yang gapunya muka.\
-\n\n g\
+\n\n{cmd}g\
 \nUsage: Kegantengan.\
-\n\n y\
+\n\n{cmd}y\
 \nUsage: teruntuk petarung.\
-\n\n h\
+\n\n{cmd}h\
 \nUsage: Kecantikan.\
-\n\n o\
+\n\n{cmd}o\
 \nUsage: Ngatain org norak.\
-\n\n x\
-\nUsage: Anak setan kontol."
-)
+\n\n{cmd}x\
+\nUsage: Ngatain Petarunx Tele."
+})
