@@ -136,13 +136,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.o(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MENTANG MENTANG PUNYA BOT MAINNYA BOT!!TAPI BAGUS LAH, LANJUTKANN SAYANG**")
-    
-    
-@register(outgoing=True, pattern='^.x(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("**GIKES AJA TERUS MEMEK, DAPET GIPEWE KAGAK PERNAH KONTOL!!**")
+    await typew.edit("**GIKES AJA TERUS ANJENG AMPE LIMIT!!! MENANG GIPEWE NYA KAGAK PERNAH!! HAHHAHA**")
 
 
 CMD_HELP.update({
@@ -191,6 +185,4 @@ CMD_HELP.update({
 \nUsage: Kecantikan.\
 \n\n o\
 \nUsage: Ngatain org norak.\
-\n\n x\
-\nUsage: membela diri.
 })
