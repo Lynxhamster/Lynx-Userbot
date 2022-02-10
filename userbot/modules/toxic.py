@@ -139,6 +139,12 @@ async def typewriter(typew):
     await typew.edit("**GIKES AJA TERUS ANJENG AMPE LIMIT!!! MENANG GIPEWE NYA KAGAK PERNAH!! HAHHAHA**")
 
 
+@register(outgoing=True, pattern='^.x(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**MANA SOALNYA ANJENG!!! TURUNIN DOANG SUSAH AMAT NGENTOT!!**")
+
+
 CMD_HELP.update({
     "toxic":
     "d\
@@ -185,4 +191,6 @@ CMD_HELP.update({
 \nUsage: Kecantikan.\
 \n\n o\
 \nUsage: Ngatain org norak.\
-})
+\n\n x\
+\nUsage: Anak setan kontol.\
+)
