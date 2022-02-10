@@ -139,7 +139,7 @@ async def typewriter(typew):
     await typew.edit("**MENTANG MENTANG PUNYA BOT MAINNYA BOT!!TAPI BAGUS LAH, LANJUTKANN SAYANG**")
     
     
-    @register(outgoing=True, pattern='^.x(?: |$)(.*)')
+@register(outgoing=True, pattern='^.x(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**GIKES AJA TERUS MEMEK, DAPET GIPEWE KAGAK PERNAH KONTOL!!**")
