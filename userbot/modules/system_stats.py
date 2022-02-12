@@ -238,7 +238,7 @@ async def amireallyalive(alive):
         f"◙ `Bot Ver    :` {BOT_VER} \n"
         f"◙ `Modules    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/BdrlSupporrt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/myventtt) | [ᴏᴡɴᴇʀ](https://t.me/Ekojuuuuu) | [ɢɪᴛʜᴜʙ](https://github.com/Oura-Ubot/Ouraaa-Userbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/BdrlSupporrt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/Myventtt) | [ᴏᴡɴᴇʀ](https://t.me/Ekojuuuuu) | [ɢɪᴛʜᴜʙ](https://github.com/Oura-Ubot/Ouraaa-Userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
