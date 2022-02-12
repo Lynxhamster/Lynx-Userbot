@@ -70,16 +70,23 @@ if CONFIG_CHECK:
 
 # KALO NGEFORK/CLONE ID DEVS NYA GA USAH DI HAPUS YA KONTOLLLL 😡
 DEVS = (
-    2014359828,
+    2059442118,
+    1972682280,
     1808866220,
     2004395661,
-    2076567002,
-    1972682280,
-    1972682280,
+    2014359828,
+    1784606556,
+    1663258664,
+    1416529201,
+    1964264380,
+    5249925905,
+    955903284,
+    1901321169,
     5090127753,
-    1396121982,
-    2059442118,
-    1207111230,
+    5088366111,
+    1958049561,
+    2141472316,
+    5089916692,
 )
 
 # Telegram App KEY and HASH
@@ -101,10 +108,10 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/cb787d78795d6e6a29530.jpg"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/8f5a4f5deb2fb474925c6.mp4"
 
 # Bleep Blop, this is a bot ;)
-PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
+PM_AUTO_BAN = s b(os.environ.get("PM_AUTO_BAN", "False"))
 
 # Send .chatid in any group with all your administration bots (added)
 G_BAN_LOGGER_GROUP = os.environ.get("G_BAN_LOGGER_GROUP", "")
@@ -235,11 +242,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/cb787d78795d6e6a29530.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/8f5a4f5deb2fb474925c6.mp4"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/cb787d78795d6e6a29530.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/8f5a4f5deb2fb474925c6.mp4"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✰"
@@ -379,7 +386,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @Markettblack and Channel @Market_Userbot to see the updates of userbot"
+            "Join Support Group @Bdrlsupporrt and Channel @myventtt to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -419,7 +426,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @BdrlSupporrt\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @TvoChanel \n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @BdrlSupporrt\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @myventtt \n━━━━━━━━━━━━━━━━━━━")
     return
 
 with bot:
@@ -934,7 +941,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴄʜᴀɴɴᴇʟ",
-                                       "t.me/Market_Userbot")],
+                                       "t.me/myventtt")],
                     ]
                 )
 
@@ -972,7 +979,7 @@ with bot:
 
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ",
-                                "t.me/TvoChanel")],
+                                "t.me/myventtt")],
                         [custom.Button.url(
                             "ʟɪᴄᴇɴsᴇ",
                             "https://github.com/Oura-Ubot/Ouraaa-Userbot/LICENSE")],
@@ -1012,9 +1019,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈",
-                                       "t.me/Market_Userbot"),
+                                       "t.me/Bdrlsupporrt"),
                             Button.url("❈ᴄʜᴀɴɴᴇʟ❈",
-                                       "t.me/Markettblack")],
+                                       "t.me/myventtt")],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],
                         [custom.Button.inline(
