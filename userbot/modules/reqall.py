@@ -85,22 +85,22 @@ async def typewriter(typew):
     await typew.edit("**𝐍𝐀𝐍𝐀 𝐊𝐀𝐍 𝐂𝐀𝐍𝐓𝐈𝐊 ☺️**")
 
 
-@register(outgoing=True, pattern='^.cz(?: |$)(.*)')
+@register(outgoing=True, pattern='^.wali(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**PAANSI PRIK BANGET NGENTOT!!MATI KEK LU BANGSAT!!**")
+    await typew.edit("**𝐖𝐀𝐋𝐈𝐊𝐎𝐓𝐀 𝐍𝐆𝐆𝐀 𝐁𝐔𝐓𝐔𝐇 𝐔𝐀𝐍𝐆 𝐁𝐔𝐓𝐔𝐇 𝐍𝐘𝐀 𝐀𝐘𝐀𝐍𝐆...**")
 
 
-@register(outgoing=True, pattern='^.sz(?: |$)(.*)')
+@register(outgoing=True, pattern='^.renn(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**CUIHHH!!! SOALNYA GA DANTA MONYET!!**")
+    await typew.edit("**𝐇𝐀𝐋𝐎 𝐆𝐀𝐄𝐒 𝐆𝐖 𝐑𝐄𝐍 𝐃𝐀𝐓𝐄𝐍𝐆 𝐏𝐄𝐌𝐄𝐁𝐔𝐑𝐔 𝐆𝐈𝐏𝐄 𝐄𝐖𝐄 𝐘𝐀 𝐌𝐄𝐌𝐄𝐊 𝐁𝐔𝐊𝐀𝐍 𝐓𝐄𝐄𝐌𝐎𝐇**")
 
 
-@register(outgoing=True, pattern='^.vz(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gcr(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GIPEWENYA DRAMA TEROSS, KEK INDOSIAR AJA NGENTOT!!CUIHH...**")
+    await typew.edit("**𝐆𝐀𝐂𝐎𝐑𝐑𝐑𝐑 𝐏𝐈𝐒𝐀𝐍𝐍𝐍....**")
 
 
 @register(outgoing=True, pattern='^.jz(?: |$)(.*)')
@@ -173,12 +173,12 @@ CMD_HELP.update({
 \nUsage: Punya Aca.\
 \n\n.naa\
 \nUsage: Punya Nana.\
-\n\n.cz\
-\nUsage: Dia tuh jelek banget.\
-\n\n.sz\
-\nUsage: Hahaha sokap sih.\
-\n\n.vz\
-\nUsage: Merendah banget.\
+\n\n.wali\
+\nUsage: Punya Wali Kota.\
+\n\n.renn\
+\nUsage: Punya Renn.\
+\n\n.gcr\
+\nUsage: Gacorkeunn.\
 \n\n.az\
 \nUsage: Neangan Sleep Call.\
 \n\n.jz\
