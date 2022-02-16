@@ -103,10 +103,10 @@ async def typewriter(typew):
     await typew.edit("**𝐆𝐀𝐂𝐎𝐑𝐑𝐑𝐑 𝐏𝐈𝐒𝐀𝐍𝐍𝐍....**")
 
 
-@register(outgoing=True, pattern='^.jz(?: |$)(.*)')
+@register(outgoing=True, pattern='^.jane(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MISKIN MISKIN AJA NYET, GAUSA SOK SOAN JADI DONATUR!!**")
+    await typew.edit("**𝐉𝐀𝐍𝐄 𝐀𝐍𝐀𝐊  𝐁𝐀𝐈𝐊...**")
 
 
 @register(outgoing=True, pattern='^.az(?: |$)(.*)')
@@ -179,8 +179,8 @@ CMD_HELP.update({
 \nUsage: Punya Renn.\
 \n\n.gcr\
 \nUsage: Gacorkeunn.\
-\n\n.az\
-\nUsage: Neangan Sleep Call.\
+\n\n.jane\
+\nUsage: Punya Jane.\
 \n\n.jz\
 \nUsage: Hujat yang mantap.\
 \n\n.gz\
