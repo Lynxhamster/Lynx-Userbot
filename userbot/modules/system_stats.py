@@ -315,7 +315,7 @@ async def redis(alive):
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
         f"┣  `GitHub   :` [ᴏᴜʀᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/Oura-Ubot/Ouraaa-Userbot) \n"
-        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel) \n"
+        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/myventtt) \n"
         f"┣  `Owner    :` [ᴏᴜʀᴀ](https://t.me/Ekojuuuuu) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
