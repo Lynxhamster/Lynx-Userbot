@@ -25,7 +25,7 @@ async def typewriter(typew):
     await typew.edit("**TAU GA SIH?? KALO DINO TUH LUCU BANGET 🤪**")
     
     
-    @register(outgoing=True, pattern='^.odn(?: |$)(.*)')
+@register(outgoing=True, pattern='^.odn(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**DINOOO... AKU PADAMU...🥺**")
