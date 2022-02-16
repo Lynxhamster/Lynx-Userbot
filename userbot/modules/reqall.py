@@ -109,22 +109,22 @@ async def typewriter(typew):
     await typew.edit("**𝐉𝐀𝐍𝐄 𝐀𝐍𝐀𝐊  𝐁𝐀𝐈𝐊...**")
 
 
-@register(outgoing=True, pattern='^.az(?: |$)(.*)')
+@register(outgoing=True, pattern='^.yass(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MINIMAL KALO HADIAHNYA DIKIT, SOALNYA DANTA YA NYET!!😁**")
+    await typew.edit("**𝐈𝐋𝐘𝐀𝐒 𝐂𝐀𝐊𝐄𝐏 𝐀𝐁𝐈𝐄𝐙𝐙𝐙 😎**")
 
 
-@register(outgoing=True, pattern='^.gz(?: |$)(.*)')
+@register(outgoing=True, pattern='^.piww(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**TURUNIN BANSOS NYA SEKARANG ANJING!! BELOM MAKAN SATU TAHUN NI....**")
+    await typew.edit("**𝐏𝐈𝐏𝐈𝐖 𝐂𝐀𝐊𝐄𝐏 𝐆𝐀𝐃𝐀 𝐎𝐁𝐀𝐓 🐣**")
 
 
-@register(outgoing=True, pattern='^.yz(?: |$)(.*)')
+@register(outgoing=True, pattern='^.cna(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BELI KERIPIK DI WA ENTOT, CUIHHH... PRIKK BANGET SI NGENTOT!!**")
+    await typew.edit("**𝐂𝐄𝐍𝐀 𝐆𝐀𝐍𝐓𝐄𝐍𝐆 𝐘𝐆𝐘.... 😎**")
 
 
 @register(outgoing=True, pattern='^.op(?: |$)(.*)')
@@ -181,12 +181,12 @@ CMD_HELP.update({
 \nUsage: Gacorkeunn.\
 \n\n.jane\
 \nUsage: Punya Jane.\
-\n\n.jz\
-\nUsage: Hujat yang mantap.\
-\n\n.gz\
-\nUsage: Kecakepan.\
-\n\n.yz\
-\nUsage: teruntuk orang stres.\
+\n\n.yass\
+\nUsage: Punya Ilyas.\
+\n\n.piww\
+\nUsage: Punya Pipiw.\
+\n\n.cna\
+\nUsage: Punya Cena Pyhsco.\
 \n\n.op\
 \nUsage: Kepedean.\
 \n\n.lz\
