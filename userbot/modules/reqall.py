@@ -127,26 +127,26 @@ async def typewriter(typew):
     await typew.edit("**𝐂𝐄𝐍𝐀 𝐆𝐀𝐍𝐓𝐄𝐍𝐆 𝐘𝐆𝐘.... 😎**")
 
 
-@register(outgoing=True, pattern='^.op(?: |$)(.*)')
+@register(outgoing=True, pattern='^.tata(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**PEMERINTAH OP ABIEZZZZZZZ...🔥 ADA LAWAN KAH NYET? 😏**")
+    await typew.edit("**𝐓𝐀𝐓𝐀 𝐂𝐀𝐊𝐄𝐏 𝐅𝐈𝐗 𝐋𝐔 𝐍𝐀𝐊𝐒𝐈𝐑 ☺️**")
 
 
-@register(outgoing=True, pattern='^.oz(?: |$)(.*)')
+@register(outgoing=True, pattern='^.bba(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**KATANYA MAU VIEWERS NAIK, TAPI SOALNYA KEK KONTOLLL!!!**")
+    await typew.edit("**𝐊𝐀𝐋𝐎 𝐆𝐀𝐌𝐀𝐒𝐔𝐊 𝐁𝐁𝐀, 𝐋𝐔 𝐆𝐀 𝐀𝐒𝐈𝐊 𝐂𝐔𝐘...**")
     
     
-@register(outgoing=True, pattern='^.lz(?: |$)(.*)')
+@register(outgoing=True, pattern='^.zara(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**ALLO GAISS... DENGAN SAYA DI SINI PEMBURU GIPEWE, YAHAHAA UDIN**")
+    await typew.edit("**𝐌𝐈𝐒𝐈... 𝐙𝐀𝐑𝐀 𝐂𝐀𝐊𝐄𝐏 𝐌𝐀𝐔 𝐋𝐄𝐖𝐀𝐓 🤪**")
 
 
 CMD_HELP.update({
-    "toxic":
+    "reqall":
     ".lex\
 \nUsage: Punya Morlex.\
 \n\n.lrh\
@@ -187,10 +187,10 @@ CMD_HELP.update({
 \nUsage: Punya Pipiw.\
 \n\n.cna\
 \nUsage: Punya Cena Pyhsco.\
-\n\n.op\
-\nUsage: Kepedean.\
-\n\n.lz\
-\nUsage: Anak Setan.\
-\n\n.oz\
-\nUsage: Ngatain org gila."
+\n\n.tata\
+\nUsage: Punya Tata.\
+\n\n.bba\
+\nUsage: Punya Gc Bba.\
+\n\n.zara\
+\nUsage: Punya Zara."
 })
