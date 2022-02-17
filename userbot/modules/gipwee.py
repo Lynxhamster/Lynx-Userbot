@@ -146,7 +146,7 @@ async def typewriter(typew):
 
 
 CMD_HELP.update({
-    "toxic":
+    "gipwee":
     ".dz\
 \nUsage: Bacotin gila Orang.\
 \n\n.ez\
