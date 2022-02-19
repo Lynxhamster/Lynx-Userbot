@@ -151,6 +151,30 @@ async def typewriter(typew):
     await typew.edit("**𝐒𝐈 𝐏𝐀𝐋𝐈𝐍𝐆 𝐐𝐔𝐄𝐄𝐍 𝐁𝐈𝐋𝐋𝐀**")
     
     
+@register(outgoing=True, pattern='^.sx(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝐌𝐄𝐍𝐓𝐀𝐍𝐆² 𝐍𝐀𝐌𝐀 𝐆𝐂𝐍𝐘𝐀 𝐒𝐄𝐗𝐘𝐍𝐃𝐑𝐎𝐌𝐄, 𝐊𝐎𝐊 𝐀𝐃𝐌𝐈𝐍𝐍𝐘𝐀 𝐒𝐘𝐍𝐃𝐑𝐎𝐌𝐄 𝐒𝐄𝐌𝐔𝐀?**")
+    
+    
+@register(outgoing=True, pattern='^.xx(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝐓𝐔𝐑𝐔𝐍𝐊𝐀𝐍 𝐎𝐖𝐍𝐄𝐑 𝐒𝐄𝐗𝐘𝐍𝐃𝐑𝐎𝐌𝐄!!!**")
+    
+    
+@register(outgoing=True, pattern='^.sxy(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝐀𝐃𝐌𝐈𝐍 𝐒𝐄𝐗𝐘𝐍𝐃𝐑𝐎𝐌𝐄 𝐓𝐈𝐃𝐀𝐊 𝐑𝐀𝐌𝐀𝐇 𝐁𝐈𝐍𝐓𝐀𝐍𝐆 𝟏**")
+    
+    
+@register(outgoing=True, pattern='^.xs(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝐒𝐄𝐗𝐘𝐍𝐃𝐑𝐎𝐌𝐄 𝐓𝐄𝐑𝐋𝐀𝐋𝐔 𝐎𝐏🔥**")
+    
+    
 @register(outgoing=True, pattern='^.zara(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -207,6 +231,14 @@ CMD_HELP.update({
 \nUsage: Punya Bila.\
 \n\n.bla\
 \nUsage: Punya Bila.\
+\n\n.sx\
+\nUsage: Punya Sexyndrome.\
+\n\n.xx\
+\nUsage: Punya Sexyndrome.\
+\n\n.sxy\
+\nUsage: Punya Sexyndrome.\
+\n\n.xs\
+\nUsage: Punya Sexyndrome.\
 \n\n.zara\
 \nUsage: Punya Zara."
 })
