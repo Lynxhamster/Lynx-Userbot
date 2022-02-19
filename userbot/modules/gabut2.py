@@ -45,15 +45,15 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai saya trio kontolllll `")
+    await typew.edit("**HALLO ANAK ANAK ANJING....**")
     sleep(5)
-    await typew.edit("`perkenalkan saya Papoyy biasa di sebut anak haram, lanjut.`")
+    await typew.edit("**PERKENALKAN... KAMI SEKUMPULAN PARA BAJINGAN**")
     sleep(3)
-    await typew.edit("`saya zenzuzu2 anak anj`")
+    await typew.edit("**IZIN NIMBRUNG DI SINI...**")
     sleep(3)
-    await typew.edit("`Dan saya @Ekojuuuuu pria idaman`")
+    await typew.edit("**KAMI SEMUA INGIN MENGUCAPKAN...**")
     sleep(1)
-    await typew.edit("`Kami bertiga tolol dan donggo, Tapi ngangenin🥵`")
+    await typew.edit("**LO SEMUA KAYAK KONTOL!! YAHAHAHA WAHYU**")
 # Create by myself @localheart
 
 
