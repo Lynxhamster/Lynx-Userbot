@@ -139,6 +139,18 @@ async def typewriter(typew):
     await typew.edit("**𝐊𝐀𝐋𝐎 𝐆𝐀𝐌𝐀𝐒𝐔𝐊 𝐁𝐁𝐀, 𝐋𝐔 𝐆𝐀 𝐀𝐒𝐈𝐊 𝐂𝐔𝐘...**")
     
     
+@register(outgoing=True, pattern='^.bila(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝐆𝐀 𝐁𝐈𝐋𝐋𝐀 𝐆𝐀 𝐀𝐒𝐈𝐊 𝐊𝐀𝐋𝐎 𝐍𝐆𝐆𝐀 𝐒𝐎𝐊𝐀𝐏**")
+    
+    
+@register(outgoing=True, pattern='^.bla(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝐒𝐈 𝐏𝐀𝐋𝐈𝐍𝐆 𝐐𝐔𝐄𝐄𝐍 𝐁𝐈𝐋𝐋𝐀**")
+    
+    
 @register(outgoing=True, pattern='^.zara(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -191,6 +203,10 @@ CMD_HELP.update({
 \nUsage: Punya Tata.\
 \n\n.bba\
 \nUsage: Punya Gc Bba.\
+\n\n.bila\
+\nUsage: Punya Bila.\
+\n\n.bla\
+\nUsage: Punya Bila.\
 \n\n.zara\
 \nUsage: Punya Zara."
 })
