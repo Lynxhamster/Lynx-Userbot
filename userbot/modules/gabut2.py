@@ -57,11 +57,31 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
+@register(outgoing=True, pattern='^.chif(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("`CHIFUYU DATANG`")
+    sleep(5)
+    await typew.edit("`SLEBEWWW...`")
+    sleep(3)
+    await typew.edit("`SLEMEKKK...`")
+    sleep(3)
+    await typew.edit("`SKNTOLL...`")
+    sleep(1)
+    await typew.edit("`BAPA LU COSPLAY UBIII...`")
+# Create by myself @localheart
+
+
 CMD_HELP.update({
-    "oi": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `ouraaa`\
+    "oi": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ouraaa`\
     \n↳ : perkenalan Bdrl\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Gombalan maut`\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.semangat`\
-    \n↳ : Jan Lupa Semangat."
+    \n↳ : Jan Lupa Semangat`\
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gelo`\
+    \n↳ : Orang Sinting`\
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.chif`\
+    \n↳ : Welcome Chifuyu."
 })
