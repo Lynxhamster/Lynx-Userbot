@@ -175,6 +175,18 @@ async def typewriter(typew):
     await typew.edit("**𝐒𝐄𝐗𝐘𝐍𝐃𝐑𝐎𝐌𝐄 𝐓𝐄𝐑𝐋𝐀𝐋𝐔 𝐎𝐏🔥**")
     
     
+@register(outgoing=True, pattern='^.nura(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝐌𝐈𝐒𝐈... 𝐍𝐔𝐑𝐀 𝐂𝐀𝐊𝐄𝐏 𝐌𝐀𝐔 𝐋𝐄𝐖𝐀𝐓...**")
+    
+    
+@register(outgoing=True, pattern='^.ura(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝐍𝐔𝐑𝐀 𝐏𝐀𝐋𝐈𝐍𝐆 𝐂𝐀𝐍𝐓𝐈𝐊!!! 😎**")
+    
+    
 @register(outgoing=True, pattern='^.zara(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -239,6 +251,10 @@ CMD_HELP.update({
 \nUsage: Punya Sexyndrome.\
 \n\n.xs\
 \nUsage: Punya Sexyndrome.\
+\n\n.nura\
+\nUsage: Punya Nura.\
+\n\n.ura\
+\nUsage: Punya Nura.\
 \n\n.zara\
 \nUsage: Punya Zara."
 })
