@@ -187,6 +187,12 @@ async def typewriter(typew):
     await typew.edit("**𝐍𝐔𝐑𝐀 𝐏𝐀𝐋𝐈𝐍𝐆 𝐂𝐀𝐍𝐓𝐈𝐊!!! 😎**")
     
     
+@register(outgoing=True, pattern='^.cesa(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝐂𝐄𝐒𝐀 𝐁𝐀𝐈𝐊... 𝐑𝐀𝐉𝐈𝐍 𝐌𝐄𝐍𝐀𝐁𝐔𝐍𝐆...**")
+    
+    
 @register(outgoing=True, pattern='^.zara(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -255,6 +261,8 @@ CMD_HELP.update({
 \nUsage: Punya Nura.\
 \n\n.ura\
 \nUsage: Punya Nura.\
+\n\n.cesa\
+\nUsage: Punya Cesa.\
 \n\n.zara\
 \nUsage: Punya Zara."
 })
