@@ -31,6 +31,12 @@ async def typewriter(typew):
     await typew.edit("**TITISAN DAJJAL GANTENG BAT 😎**")
     
     
+@register(outgoing=True, pattern='^.ccn(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**CUMA KOMO YANG PALING GANTENG... 😎**")
+    
+    
 @register(outgoing=True, pattern='^.odn(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -48,6 +54,8 @@ CMD_HELP.update({
 \nUsage: Punya Dino.\
 \n\n.ccn\
 \nUsage: Punya Cena.\
+\n\n.moo\
+\nUsage: Punya Komo.\
 \n\n.odn\
 \nUsage: Punya Dino."
 })
