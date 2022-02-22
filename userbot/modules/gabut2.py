@@ -57,6 +57,18 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
+@register(outgoing=True, pattern='^.cenaa(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(3)
+    await typew.edit("**HALLO KONTOLLL...**")
+    sleep(5)
+    await typew.edit("**CUMA MAU BILANG, KALO...**")
+    sleep(3)
+    await typew.edit("**CENA GANTENG 😎**")
+# Create by myself @localheart
+
+
 @register(outgoing=True, pattern='^.chif(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -82,6 +94,8 @@ CMD_HELP.update({
     \n↳ : Jan Lupa Semangat`\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gelo`\
     \n↳ : Orang Sinting`\
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.cenaa`\
+    \n↳ : Punya Cenaa`\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.chif`\
     \n↳ : Welcome Chifuyu."
 })
