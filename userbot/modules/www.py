@@ -16,14 +16,14 @@ from userbot import CMD_HELP, DEVS, StartTime, ALIVE_NAME
 from userbot.events import register
 
 absen = [
-    "**Hadir cok baru selese coli** 🥵",
-    "**Hadir brokuuu** 😎",
-    "**Hadir kak maap abis open BO** 😖",
-    "**Hadir brodiii** 😁",
-    "**Hadir kak maap telat** 🥺",
-    "**Hadir Sayang** 😋",
-    "**Hadir nyettt** 😎",
-    "**Hadir jancok** 😎",
+    "**Hadir Cok Baru Selese Coli** 🥵",
+    "**Hadir Brokuuu** 😎",
+    "**Hadir Kak Maap Abis Open BO** 😖",
+    "**Hadir Lagi Nonton Lipsow** 😁",
+    "**Hadir Kak Maap Telat** 🥺",
+    "**Hadir Setannn...** 😋",
+    "**Hadir Ahh Ahh Ahhh...** 😎",
+    "**Hadir Kak Oura Sayang** 😎",
 ]
 
 roas = [
