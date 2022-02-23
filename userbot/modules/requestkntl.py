@@ -31,10 +31,10 @@ async def typewriter(typew):
     await typew.edit("**TITISAN DAJJAL GANTENG BAT 😎**")
     
     
-@register(outgoing=True, pattern='^.ccn(?: |$)(.*)')
+@register(outgoing=True, pattern='^.moo(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**CUMA KOMO YANG PALING GANTENG... 😎**")
+    await typew.edit("**KOMO GANTENG... 😎**")
     
     
 @register(outgoing=True, pattern='^.odn(?: |$)(.*)')
