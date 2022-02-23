@@ -372,8 +372,8 @@ except Exception as e:
 
 
 async def checking():
-    gocheck = str(pybase64.b64decode("QE15dkVudHQ="))[2:15]
-    checker = str(pybase64.b64decode("QE91cmFhU3VwcG9ydA=="))[2:16]
+    gocheck = str(pybase64.b64decode("QE91cmFhU3VwcG9ydA==""))[2:15]
+    checker = str(pybase64.b64decode("QE15eVZlblR0dA=="))[2:16]
     try:
         await bot(GetSec(gocheck))
     except BaseException:
@@ -388,7 +388,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @coresupport and Channel @myventtt to see the updates of userbot"
+            "Join Support Group @OuraaSupport and Channel @MyyVenTtt to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
