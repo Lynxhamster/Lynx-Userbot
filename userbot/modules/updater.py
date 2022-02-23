@@ -71,7 +71,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit(
-            "`Heroku :` `Sedang MengUpdate`" "\n`Mohon Menunggu 5-7 Menit`"
+            "`Heroku :` `Lagi Update Bodoh!`" "\n`Sabar Ye Anak Haram Gakan Sampe 1 Jam Kok Nyet`"
         )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -97,7 +97,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             return await event.delete()
         else:
             await event.edit(
-                "`Ouraaa-Userbot Berhasil DiUpdate,Restart Tunggu Sebentar`"
+                "`Ouraaa-Userbot Berhasil DiUpdate,Restart Dulu,Sabar Anjing`"
             )
             await asyncio.sleep(15)
             await event.delete()
@@ -126,13 +126,13 @@ async def update(event, repo, ups_rem, ac_br):
     await asyncio.sleep(1)
     await event.edit("**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡** `Di Restart....`")
     await asyncio.sleep(1)
-    await event.edit("`Mohon Menunggu Beberapa Detik.`")
+    await event.edit("`Sabar Yee Ngentot...Moga Crash awikwok`")
     await asyncio.sleep(10)
     await event.delete()
 
     if BOTLOG:
         await event.client.send_message(
-            BOTLOG_CHATID, "#BOT \n" "**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡ Telah Di Perbarui.**"
+            BOTLOG_CHATID, "#BOT \n" "**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡ Udah Yaa Terbaru Yaa Anjing.**"
         )
         await asyncio.sleep(100)
         await event.delete()
@@ -196,7 +196,7 @@ async def upstream(event):
 
     if changelog == "" and force_update is False:
         await event.edit(
-            f"\n⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡ Sudah Versi Terbaru\n"
+            f"\n⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡ Mau Update Apalagi Tolol\n"
         )
         await asyncio.sleep(15)
         await event.delete()
