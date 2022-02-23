@@ -111,8 +111,8 @@ async def repo_is_here(wannasee):
         "**Hey**, I am using **⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡** \n"
         "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Oura-Ubot/Ouraaa-Userbot)\n"
         "➣**Owner Bot     :** [Ouraaa](t.me/Ekojuuuuu)\n"
-        "➣ **Support       :** [sᴜᴘᴘᴏʀᴛ](https://t.me/BdrlSupporrt)\n"
-        "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/myventtt)\n"
+        "➣ **Support       :** [sᴜᴘᴘᴏʀᴛ](https://t.me/OuraaSupport)\n"
+        "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/OuraPostt)\n"
     )
 
 
