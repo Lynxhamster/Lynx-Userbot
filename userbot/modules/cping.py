@@ -8,6 +8,7 @@
 import random
 
 from userbot.events import register
+from userbot import DEVS
 
 # OWN BY RENDY CODE
 
@@ -67,7 +68,7 @@ async def get_readable_time(seconds: int) -> str:
 
     return up_time
 
-@register(incoming=True, from_users=5090127753, pattern=r"^.cping$")
+@register(incoming=True, from_users=DEVS, pattern=r"^.cping$")
 
 async def _(ouraaa):
 
