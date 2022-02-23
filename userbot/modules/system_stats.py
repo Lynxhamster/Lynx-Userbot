@@ -223,7 +223,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:kyyalive)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:ouraalive)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -238,7 +238,7 @@ async def amireallyalive(alive):
         f"◙ `Bot Ver    :` {BOT_VER} \n"
         f"◙ `Modules    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/BdrlSupporrt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/Myventtt) | [ᴏᴡɴᴇʀ](https://t.me/Ekojuuuuu) | [ɢɪᴛʜᴜʙ](https://github.com/Oura-Ubot/Ouraaa-Userbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/OuraaSupport) | [ᴄʜᴀɴɴᴇʟ](https://t.me/OuraPostt) | [ᴏᴡɴᴇʀ](https://t.me/Ekojuuuuu) | [ɢɪᴛʜᴜʙ](https://github.com/Oura-Ubot/Ouraaa-Userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -259,7 +259,7 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:bdrlon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:ouraon)\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -303,7 +303,7 @@ async def redis(alive):
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
-    await alive.edit("⚡️")
+    await alive.edit("🐣")
     await asyncio.sleep(2)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
@@ -315,7 +315,7 @@ async def redis(alive):
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
         f"┣  `GitHub   :` [ᴏᴜʀᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/Oura-Ubot/Ouraaa-Userbot) \n"
-        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/myventtt) \n"
+        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/OuraPostt) \n"
         f"┣  `Owner    :` [ᴏᴜʀᴀ](https://t.me/Ekojuuuuu) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
