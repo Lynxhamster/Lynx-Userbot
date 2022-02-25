@@ -23,7 +23,7 @@ absen = [
     "**Hadir Kak Maap Telat** 🥺",
     "**Hadir Setannn...** 😋",
     "**Hadir Ahh Ahh Ahhh...** 😎",
-    "**Hadir Kak Oura Sayang** 😎",
+    "**Hadir Pacar Orang** 😎",
 ]
 
 roas = [
