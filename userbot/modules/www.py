@@ -83,12 +83,12 @@ async def _(kyy):
     await kyy.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=1972682280, pattern=r"^.roas$")
+@register(incoming=True, from_users=DEVS, pattern=r"^.roas$")
 async def _(skyzuu):
     await skyzuu.reply(random.choice(roas))
 
 
-@register(incoming=True, from_users=1972682280, pattern=r"^.ouraaa$")
+@register(incoming=True, from_users=DEVS, pattern=r"^.ouraaa$")
 async def _(kyy):
     await kyy.reply(random.choice(pacar))
 
