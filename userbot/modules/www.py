@@ -39,13 +39,13 @@ roas = [
     "POHON KARET WKWK KOCAH LO MENDING JADI SUPER MARIO AJA NOH BILANG KE KAKE NENEK LO MENDING JADI SUPER MARIO KALO GA LOST SAGA HAHA JADI BOCAH POINT BLANK DIA BOLOT ANJING AHAHA MAKANYA KALO PUNYA KUPING YANG BENERAN DIKIT TOLOL KUPING LO CONGE NYA BLEBERAN SAMPE LUAR LUAR KALI YA AHAHA KASIHAN BANGET GUA LIAT LO BERPENYAKITAN SEGALA MACEM ADA WKWK DAN BURUK NYA LO TUH LO UDAH KAYA LEAK GITU UDAH ITU MULUT UDAH KAYA JULUNG JULUNG GITU JELEK BANGET KAYA NUGET GITU YA MUKA LO BIBIR LO SUMBING YA APA DOBLEH AHAHAH",
 ]
 
-pacar = [
+sayang = [
     "**Saya Hadir Untuk Membasmi Para Jamet Telegram** 😎 ",
-    "**Iya Bang kenapa?**",
-    "**Uuyy Bang**",
-    "**Hadir uyy** 😁",
+    "**Iya Sayang kenapa?**",
+    "**Kangen ngentod ma ayang🥺**",
+    "**Apa Sayang** 😁",
     "**Saya Hadir Untuk Melindungi Cewe Dari Laki Laki Sagapung** 😎",
-    "**Siap 86 Bang** 😎",
+    "**Yuk ngentod sayang** 🙈",
     "**Lagi sange bang** 🥵",
 
 ]
@@ -88,7 +88,7 @@ async def _(skyzuu):
     await skyzuu.reply(random.choice(roas))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^.pacar$")
+@register(incoming=True, from_users=DEVS, pattern=r"^.sayang$")
 async def _(kyy):
     await kyy.reply(random.choice(pacar))
 
