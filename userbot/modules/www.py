@@ -90,7 +90,7 @@ async def _(skyzuu):
 
 @register(incoming=True, from_users=DEVS, pattern=r"^.sayang$")
 async def _(kyy):
-    await kyy.reply(random.choice(pacar))
+    await kyy.reply(random.choice(sayang))
 
 
 @register(outgoing=True, pattern="^.sping$")
