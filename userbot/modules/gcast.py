@@ -3,7 +3,7 @@ from userbot import CMD_HELP, bot
 
 GCAST_BLACKLIST = [
     -1001743853750,  # Cariteman
-    -1001653425944,  # Bdrl
+    -1001704645461,  # Bdrl
     -1001473548283,  #sharing
 ] 
 
