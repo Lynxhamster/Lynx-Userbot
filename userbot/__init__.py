@@ -92,7 +92,6 @@ DEVS = (
     1731365899,
     5291105451,
     5240213549,
-    2010825200, #jaembod
 )
 
 # Telegram App KEY and HASH
