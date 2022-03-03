@@ -110,7 +110,7 @@ async def gben(userbot):
     if user:
         if user.id in DEVS:
             return await dark.edit(
-                f"**Lu Mau Ngapain Anjg NgeGban Tuhan Gua Goblok Mana Bisa Lah Anjg!!!**"
+                f"**Lu Mau Ngapain Anjg NgeGban Tuhan Gua? Goblok Mana Bisa Lah Anjg!!!**"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
