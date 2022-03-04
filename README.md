@@ -28,8 +28,12 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 
 ## Heroku Deployment
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Oura-Ubot/Ouraaa-Userbot)
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Oura-Ubot/Ouraaa-Userbot"> <img 
+src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
+
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=T3VyYS1VYm90L091cmFhYS1Vc2VyYm90IE91cmFhYS1Vc2VyYm90"> <img 
+src="https://img.shields.io/badge/Deploy%20To%20Bot%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 ### Support & Updates 
 <a href="https://t.me/bdrlsupportt"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/gabuuttty"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
