@@ -193,6 +193,12 @@ async def typewriter(typew):
     await typew.edit("**𝐂𝐄𝐒𝐀 𝐁𝐀𝐈𝐊... 𝐑𝐀𝐉𝐈𝐍 𝐌𝐄𝐍𝐀𝐁𝐔𝐍𝐆...**")
     
     
+@register(outgoing=True, pattern='^.upin(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝗨𝗣𝗜𝗡 𝗜𝗠𝗨𝗧 𝗩𝗔𝗟𝗜𝗗 𝗡𝗢 𝗗𝗘𝗕𝗔𝗧 !!!**")
+    
+    
 @register(outgoing=True, pattern='^.zara(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -263,6 +269,8 @@ CMD_HELP.update({
 \nUsage: Punya Nura.\
 \n\n.cesa\
 \nUsage: Punya Cesa.\
+\n\n.Upin\
+\nUsage: Punya Upin.\
 \n\n.zara\
 \nUsage: Punya Zara."
 })
