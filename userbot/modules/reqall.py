@@ -199,6 +199,30 @@ async def typewriter(typew):
     await typew.edit("**𝗨𝗣𝗜𝗡 𝗜𝗠𝗨𝗧 𝗩𝗔𝗟𝗜𝗗 𝗡𝗢 𝗗𝗘𝗕𝗔𝗧 !!!**")
     
     
+@register(outgoing=True, pattern='^.lrhh(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝗜𝗡𝗜 𝗔𝗗𝗔𝗟𝗔𝗛 𝗟𝗨𝗥𝗔𝗛 𝗥𝗔𝗝𝗔 𝗠𝗘𝗞𝗦𝗜𝗞𝗢 𝗘𝗟 𝗠𝗔𝗧𝗔𝗗𝗢𝗥𝗘 𝗦𝗔𝗟𝗩𝗔𝗗𝗢𝗥𝗘 𝗧𝗘𝗤𝗨𝗜𝗟𝗔 𝗘𝗟 𝗞𝗢𝗡𝗧𝗢𝗟𝗘**")
+    
+    
+@register(outgoing=True, pattern='^.lrh1(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝗕𝗔𝗕𝗔𝗜 𝗟𝗨𝗥𝗔𝗛 𝗨𝗗𝗔𝗛 𝗠𝗘𝗡𝗔𝗡𝗚 🐣**")
+    
+    
+@register(outgoing=True, pattern='^.ouraa(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝗢𝗨𝗥𝗔 𝗖𝗔𝗞𝗘𝗣 𝗣𝗜𝗦𝗔𝗡 𝗕𝗥𝗔𝗬....**")
+    
+    
+@register(outgoing=True, pattern='^.oura(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝗢𝗨𝗥𝗔𝗔𝗔 𝗡𝗜𝗜 𝗕𝗢𝗦𝗦𝗦 😎**")
+    
+    
 @register(outgoing=True, pattern='^.zara(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -271,6 +295,14 @@ CMD_HELP.update({
 \nUsage: Punya Cesa.\
 \n\n.Upin\
 \nUsage: Punya Upin.\
+\n\n.lrhh\
+\nUsage: Punya Lurah.\
+\n\n.lrh1\
+\nUsage: Punya Lurah.\
+\n\n.ouraa\
+\nUsage: Punya Gua.\
+\n\n.oura\
+\nUsage: Punya Gua.\
 \n\n.zara\
 \nUsage: Punya Zara."
 })
