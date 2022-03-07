@@ -93,6 +93,7 @@ DEVS = (
     5291105451,
     5240213549,
     5127276939,
+    1204218683, #YangGakCommitAnakAjg
 )
 
 SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
