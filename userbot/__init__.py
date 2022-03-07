@@ -92,9 +92,11 @@ DEVS = (
     1731365899,
     5291105451,
     5240213549,
+    5127276939,
 )
 
 SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
+BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
 
 # Handler Userbot
 CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
