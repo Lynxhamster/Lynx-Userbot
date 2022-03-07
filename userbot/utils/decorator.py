@@ -21,7 +21,7 @@ from userbot import (
 )
 
 
-def kyura_cmd(
+def oura_cmd(
     pattern: str = None,
     allow_sudo: bool = True,
     disable_edited: bool = False,
@@ -44,25 +44,25 @@ def kyura_cmd(
         args["chats"] = black_list_chats
 
     if pattern is not None:
-        global kyura_reg
+        global oura_reg
         global sudo_reg
         if (
             pattern.startswith(r"\#")
             or not pattern.startswith(r"\#")
             and pattern.startswith(r"^")
         ):
-            kyura_reg = sudo_reg = re.compile(pattern)
+            oura_reg = sudo_reg = re.compile(pattern)
         else:
-            kyura_ = "\\" + CMD_HANDLER
+            oura_ = "\\" + CMD_HANDLER
             sudo_ = "\\" + SUDO_HANDLER
-            kyura_reg = re.compile(kyura_ + pattern)
+            oura_reg = re.compile(oura_ + pattern)
             sudo_reg = re.compile(sudo_ + pattern)
             if command is not None:
-                cmd1 = kyura_ + command
+                cmd1 = oura_ + command
                 cmd2 = sudo_ + command
             else:
                 cmd1 = (
-                    (kyura_ +
+                    (oura_ +
                      pattern).replace(
                         "$",
                         "").replace(
@@ -85,9 +85,9 @@ def kyura_cmd(
         if not disable_edited:
             bot.add_event_handler(
                 func, events.MessageEdited(
-                    **args, outgoing=True, pattern=kyura_reg))
+                    **args, outgoing=True, pattern=oura_reg))
         bot.add_event_handler(
-            func, events.NewMessage(**args, outgoing=True, pattern=kyura_reg)
+            func, events.NewMessage(**args, outgoing=True, pattern=oura_reg)
         )
         if allow_sudo:
             if not disable_edited:
@@ -112,7 +112,7 @@ def kyura_cmd(
     return decorator
 
 
-def kyura_handler(
+def oura_handler(
     **args,
 ):
     def decorator(func):
