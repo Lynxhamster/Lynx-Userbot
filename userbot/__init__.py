@@ -97,12 +97,6 @@ DEVS = (
     1700405732,
 )
 
-SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
-BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
-
-# Handler Userbot
-CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
-SUDO_HANDLER = os.environ.get("SUDO_HANDLER") or "$"
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or None)
