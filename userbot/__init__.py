@@ -959,7 +959,7 @@ with bot:
                                        "t.me/myventtt")],
                     ]
                 ) 
-                
+
         @ tgbot.on(
             events.InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
