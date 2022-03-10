@@ -401,7 +401,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @OuraaSupport and Channel @MyyVenTtt to see the updates of userbot"
+            "Join Support Group @OuraaSupport and Channel @OuraPostt to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -441,7 +441,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @BdrlSupporrt\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @myventtt \n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @OuraaSupport\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @OuraPostt \n━━━━━━━━━━━━━━━━━━━")
     return
 
 with bot:
