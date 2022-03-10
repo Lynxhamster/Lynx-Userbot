@@ -958,8 +958,10 @@ with bot:
                             Button.url("ᴄʜᴀɴɴᴇʟ",
                                        "t.me/myventtt")],
                     ]
-                )                
-        @ tgbot.on(events.InlineQuery)  # pylint:disable=E0602
+                ) 
+                
+        @ tgbot.on(
+            events.InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
             builder = event.builder
             result = None
