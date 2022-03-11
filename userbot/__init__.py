@@ -1044,7 +1044,6 @@ with bot:
                             "°ᴄʟᴏꜱᴇ ɪɴʟɪɴᴇ°", b"close")],
                     ]
                 )
-
         @ tgbot.on(events.CallbackQuery(data=b"close"))
         async def close(event):
             buttons = [
