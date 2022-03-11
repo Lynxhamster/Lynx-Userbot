@@ -108,6 +108,11 @@ SUDO_HANDLER = os.environ.get("SUDO_HANDLER") or "$"
 API_KEY = int(os.environ.get("API_KEY") or None)
 API_HASH = str(os.environ.get("API_HASH") or None)
 
+
+# Handler Userbot
+CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
+SUDO_HANDLER = os.environ.get("SUDO_HANDLER") or "$"
+
 # Userbot Session String
 STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
