@@ -25,10 +25,10 @@ async def typewriter(typew):
     await typew.edit("**𝐆𝐲𝐢𝐟𝐚 𝐥𝐞𝐦𝐞𝐬𝐬 𝐩𝐫𝐞𝐧𝐧 𝐛𝐞𝐥𝐨𝐦 𝐝𝐢 𝐬𝐞𝐦𝐚𝐧𝐠𝐚𝐭𝐢𝐧 𝐚𝐲𝐚𝐧𝐠☺️**")
 
 
-@register(outgoing=True, pattern='^.wann(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kim(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝐒𝐞𝐬𝐮𝐚𝐭𝐮 𝐲𝐚𝐧𝐠 𝐛𝐞𝐫𝐥𝐞𝐛𝐢𝐡𝐚𝐧 𝐢𝐭𝐮 𝐠𝐚𝐛𝐚𝐢𝐤, 𝐤𝐞𝐜𝐮𝐚𝐥𝐢 𝐩𝐚𝐩 𝐫𝐚𝐧𝐝𝐨𝐦 𝐝𝐚𝐫𝐢 𝐲𝐨𝐮 𝐡𝐬𝐡𝐬𝐡𝐬𝐡𝐬**")
+    await typew.edit("**𝗠𝗜𝗦𝗜𝗜... 𝗞𝗜𝗠 𝗖𝗔𝗡𝗧𝗜𝗞 𝗠𝗔𝗨 𝗟𝗘𝗪𝗔𝗧...**")
 
 
 @register(outgoing=True, pattern='^.sha(?: |$)(.*)')
@@ -237,8 +237,8 @@ CMD_HELP.update({
 \nUsage: Punya Lurah.\
 \n\n.nadd\
 \nUsage: Punya Gyifa.\
-\n\n.wann\
-\nUsage: Punya Wann.\
+\n\n.kim\
+\nUsage: Punya Kim.\
 \n\n.shaa\
 \nUsage: Punya Shannon.\
 \n\n.what\
