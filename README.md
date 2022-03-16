@@ -32,7 +32,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 
-<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=T3VyYS1VYm90L091cmFhYS1Vc2VyYm90IE91cmFhYS1Vc2VyYm90"> <img 
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=THlueGhhbXN0ZXIvTHlueC1Vc2VyYm90IEx5bngtVXNlcmJvdA"> <img 
 src="https://img.shields.io/badge/Deploy%20To%20Bot%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 ### Support & Updates 
