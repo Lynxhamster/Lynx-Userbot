@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/166e77675a9b6af800674.jpg">
+  <img src="https://telegra.ph/file/339efb2af2c22406b6fc1.png">
 </p>
 
 
