@@ -920,7 +920,7 @@ with bot:
         async def killdabot(event):
             if event.query.user_id == uid:
                 text = (
-                    f"**Restaring Ouraaa-Userbot**...")
+                    f"**Restaring Lynx-Userbot**...")
                 await event.edit(
                     text,
                     file=kyylogo,
