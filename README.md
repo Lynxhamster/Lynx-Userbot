@@ -28,7 +28,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 
 ## Heroku Deployment
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Oura-Ubot/Ouraaa-Userbot"> <img 
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Lynxhamster/Lynx-Userbot"> <img 
 src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 
