@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./resources/extras/Indomiepurple.gif" width="35px">𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
+<h1 align="center"><img src="./resources/extras/Indomiepurple.gif" width="35px">Lynx-Userbot<img src="./resources/extras/Indomiepurple.gif" width="35px"></h1>
 
 <p align="center">
     <a href="https://github.com/Oura-Ubot/Ouraaa-Userbot/commits/Ouraaa-Userbot"><img src="https://img.shields.io/github/last-commit/Oura-Ubot/Ouraaa-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
