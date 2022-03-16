@@ -115,7 +115,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/8f5a4f5deb2fb474925c6.mp4"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/f4ba2f80b5dd94a972808.jpg"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -140,9 +140,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Oura-Ubot/Ouraaa-Userbot")
+    "https://github.com/Lynxhamster/Lynx-Userbot")
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Ouraaa-Userbot")
+    "UPSTREAM_REPO_BRANCH", "Lynx-Userbot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -213,7 +213,7 @@ YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
 # Untuk Perintah .ouraalive
-OURA_TEKS_KUSTOM = os.environ.get("OURA_TEKS_KUSTOM", "I'am Using Ouraaa-Userbot✨")
+OURA_TEKS_KUSTOM = os.environ.get("OURA_TEKS_KUSTOM", "I'am Using Lynx-Userbot💫")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
@@ -236,10 +236,10 @@ BITLY_TOKEN = os.environ.get(
     "BITLY_TOKEN") or "o_1fpd9299vp"
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Ouraaa-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Lynx-Userbot")
 
 # Bot Version
-BOT_VER = os.environ.get("BOT_VER", "7.0")
+BOT_VER = os.environ.get("BOT_VER", "2.0")
 
 # Default .alive Username
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
@@ -249,11 +249,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/8f5a4f5deb2fb474925c6.mp4"
+    "ALIVE_LOGO") or "https://telegra.ph/file/f4ba2f80b5dd94a972808.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/8f5a4f5deb2fb474925c6.mp4"
+    "INLINE_PIC") or "https://telegra.ph/file/f4ba2f80b5dd94a972808.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✰"
@@ -393,7 +393,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @OuraaSupport and Channel @OuraPostt to see the updates of userbot"
+            "Join Support Group @LynxSupport and Channel @Unsupportesd to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
@@ -433,7 +433,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ✨**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @OuraaSupport\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @OuraPostt \n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓 ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ💫**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @OuraaSupport\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @OuraPostt \n━━━━━━━━━━━━━━━━━━━")
     return
 
 with bot:
@@ -549,11 +549,11 @@ with bot:
                     f"✥ **ɪᴅ ᴘᴇɴɢɢᴜɴᴀ​ :** {c.id} \n"
                     f"✥ **ᴜsᴇʀɴᴀᴍᴇ​ :** @{c.username} \n"
                     f"✥ **ᴍᴇɴᴛɪᴏɴ​ :** [{get_display_name(c)}](tg://user?id={c.id}) \n\n"
-                    f"sᴇᴍᴏɢᴀ ʙᴇᴛᴀʜ ᴅɪsɪɴɪ ʏᴀ​ ✨\n",
+                    f"sᴇᴍᴏɢᴀ ʙᴇᴛᴀʜ ᴅɪsɪɴɪ ʏᴀ​ 💫\n",
                     buttons=[
                         [
                             Button.url("ʀᴇᴘᴏ​",
-                                       "https://github.com/Oura-Ubot/Ouraaa-Userbot")],
+                                       "https://github.com/Lynxhamster/Lynx-Userbot")],
                     ]
                 )
 
@@ -564,7 +564,7 @@ with bot:
             if event.message.from_id != uid:
                 await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"{START_WELCOME}\n\n**Powered By** : @Ekojuuuuu\n\n",
+                    f"{START_WELCOME}\n\n**Powered By** : @Lynxhamsters\n\n",
                     buttons=[
                         [
                             custom.Button.inline(
@@ -600,7 +600,7 @@ with bot:
             if event.query.user_id == uid and query.startswith(
                     "@Ekojuuuuu"):
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME} "
+                text = f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 2.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME} "
                 await event.edit(text,
                                  file=kyylogo,
                                  buttons=buttons,
@@ -633,10 +633,10 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 text = (
-                    f"❁ __Saya Adalah Ouraaa Userbot Yang Digunakan Banyak User Telegram__.\n\n"
+                    f"❁ __Saya Adalah Lynx Userbot Yang Digunakan Banyak User Telegram__.\n\n"
                     f"❁ __Saya Dibuat Hanya Untuk Bersenang Senang Ditelegram__.\n\n"
                     f"❁ __Kelebihan Saya Banyak, Saya Mempunyai 1816 Modules__.\n\n"
-                    f"© @Ekojuuuuu")
+                    f"© @Lynxhamsters")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -646,7 +646,7 @@ with bot:
                     ]
                 )
             else:
-                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 7.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Ouraaa-Userbot"
+                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 2.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Lynx-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -714,7 +714,7 @@ with bot:
                     f"°__Mengubah Foto Alive Kamu, Yang Kamu Inginkan__.\n\n"
                     f"× `.set var OURA_TEKS_KUSTOM` [**TEKS**]\n"
                     f"°__Mengganti Teks Yang Ada Command ouraAlive__.\n\n"
-                    f"© @Ekojuuuuu")
+                    f"© @Lynxhamsters")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -744,7 +744,7 @@ with bot:
                     f"°__Mengaktifkan Pmpermit Kalian Atau Disebut Pesan Otomatis__.\n\n"
                     f"× `.set pm_msg` [**REPLYCHAT**]\n"
                     f"°__Mengganti Teks Pmpermit Selera Kamu__.\n\n"
-                    f"© @Ekojuuuuu")
+                    f"© @Lynxhamsters")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -774,7 +774,7 @@ with bot:
                     f"°__Mengubah Emoji Inline Yang Ada Dicomand__ `.helpme`\n\n"
                     f"× `.set var INLINE_PIC` [**LINK**]\n"
                     f"°__Mengubah Foto Yang Ada Dicomand__ `.helpme`\n\n"
-                    f"© @Ekojuuuuu")
+                    f"© @Lynxhamsters")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -802,7 +802,7 @@ with bot:
                     f"Modules Name **pmbot**\n\n"
                     f"× `.set var START_WELCOME` [**TEKS**] \n"
                     f"°__Kamu Juga Bisa Mengubah Start Welcome Untuk Bot Kamu Yang Ini, Dengan Cara Diatas Dan Kata Kata Bebas__.\n\n"
-                    f"© @Ekojuuuuu")
+                    f"© @Lynxhamsters")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -828,11 +828,11 @@ with bot:
             if event.query.user_id == uid:
                 text = (
                     f"Modules Name **Pembaruan**\n\n"
-                    f"× **Pembaruan Data Untuk Ouraaa Userbot, Command Untuk Pembaruan**.\n"
+                    f"× **Pembaruan Data Untuk Lynx Userbot, Command Untuk Pembaruan**.\n"
                     f"⚒Pembaruan Data :\n"
                     f"`.update deploy`\n"
                     f"`update`\n\n"
-                    f"© @Ekojuuuuu")
+                    f"© @Lynxhamsters")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -886,7 +886,7 @@ with bot:
                 AppPercentage = math.floor(
                     apps.get('quota_used') * 100 / quota)
                 text = (
-                    "✨ **ɪɴꜰᴏʀᴍᴀsɪ ᴅʏɴᴏ ʜᴇʀᴏᴋᴜ :**\n"
+                    "💫 **ɪɴꜰᴏʀᴍᴀsɪ ᴅʏɴᴏ ʜᴇʀᴏᴋᴜ :**\n"
                     "╭┈─╼═════════════════╾─┈╮\n"
                     f" ☂ **ᴘᴇɴɢɢᴜɴᴀ ᴅʏɴᴏ sᴀᴀᴛ ɪɴɪ :**\n"
                     f"  ➽  `{AppHours}`**ᴊᴀᴍ**  `{AppMinutes}`**ᴍᴇɴɪᴛ**  "
@@ -897,7 +897,7 @@ with bot:
                     f"**|**  [`{percentage}`**%**]\n"
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
                     "\n╰┈─╼═════════════════╾─┈╯"
-                    f"© @Ekojuuuuu")
+                    f"© @Lynxhamsters")
                 await event.edit(
                     text,
                     file=kyylogo,
@@ -948,7 +948,7 @@ with bot:
                     buttons=[
                         [
                             Button.url("ᴄʜᴀɴɴᴇʟ",
-                                       "t.me/myventtt")],
+                                       "t.me/Unsupportesd")],
                     ]
                 ) 
 
@@ -964,33 +964,33 @@ with bot:
                 result = builder.photo(
                     file=kyylogo,
                     link_preview=False,
-                    text=f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME}".format(
+                    text=f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 2.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME}".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓",
+                    "Bantuan Dari Lynx-Userbot",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " 𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓",
-                    text="""°Ouraaa-Userbot°""",
+                    " Lynx-Userbot",
+                    text="""°Lynx-Userbot°""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Ouraaa",
-                                "https://github.com/Oura-Ubot/Ouraaa-Userbot"),
+                                "Lynx",
+                                "https://github.com/Lynxhamster/Lynx-Userbot"),
 
                             custom.Button.url(
                                 "ᴄʜᴀɴɴᴇʟ",
-                                "t.me/myventtt")],
+                                "t.me/Unsupportesd")],
                         [custom.Button.url(
                             "ʟɪᴄᴇɴsᴇ",
-                            "https://github.com/Oura-Ubot/Ouraaa-Userbot/LICENSE")],
+                            "https://github.com/Lynxhamster/Lynx-Userbot/LICENSE")],
                     ],
                     link_preview=False,
                 )
