@@ -1,7 +1,7 @@
 {
-  "name": "Ouraaa-Userbot",
+  "name": "Lynx-Userbot",
  "description": "OURA -USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/cb787d78795d6e6a29530.jpg",
+  "logo": "https://telegra.ph/file/166e77675a9b6af800674.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Oura-Ubot/Ouraaa-Userbot/Ouraaa-Userbot",
-  "telegram": "https://t.me/Ekojuuuuu",
-  "success_url": "https://t.me/BdrlSupporrt",
+  "repository": "https://github.com/Lynxhamster/Lynx-Userbot/Lynx-Userbot",
+  "telegram": "https://t.me/Lynxhamsters",
+  "success_url": "https://t.me/Xhamsters",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -24,7 +24,7 @@
     },
     "ALIVE_LOGO": {
       "description": "Gambar dalam module .alive",
-      "value": "https://telegra.ph/file/cb787d78795d6e6a29530.jpg",
+      "value": "https://telegra.ph/file/166e77675a9b6af800674.jpg",
       "required": false
     },
      "STRING_SESSION": {
