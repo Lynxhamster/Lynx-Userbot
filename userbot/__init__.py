@@ -433,7 +433,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**Lynx-Userbot DAH AKTIF YA CROT💫**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 2.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @LynxSupports\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @Unsupportesd \n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**𝐋𝐘𝐍𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 DAH AKTIF YA CROT💫**\n━━━━━━━━━━━━━━━━━━━\n❃ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n❃ **ʙᴏᴛ ᴠᴇʀ :** 2.0\n━━━━━━━━━━━━━━━━━━━\n❃ **sᴜᴘᴘᴏʀᴛ​ :** @LynxSupports\n❃ **ᴄʜᴀɴɴᴇʟ​ :** @Unsupportesd \n━━━━━━━━━━━━━━━━━━━")
     return
 
 with bot:
