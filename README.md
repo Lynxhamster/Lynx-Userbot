@@ -1,4 +1,4 @@
-<h1 align="center"><img src="./resources/extras/Indomiepurple.gif" width="35px">Lynx-Userbot<img src="./resources/extras/Indomiepurple.gif" width="35px"></h1>
+<h1 align="center"☆Lynx-Userbot☆/h1>
 
 <p align="center">
     <a href="https://github.com/Lynxhamster/Lynx-Userbot/commits/Lynx-Userbot"><img src="https://img.shields.io/github/last-commit/Lynxhamster/Lynx-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
