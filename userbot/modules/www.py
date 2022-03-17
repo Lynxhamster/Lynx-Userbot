@@ -16,12 +16,12 @@ from userbot import CMD_HELP, DEVS, StartTime, ALIVE_NAME
 from userbot.events import register
 
 absen = [
-    "**Hadir Cok Baru Selese Coli bray** 🥵",
-    "**Hadir Brokuuu** 😎",
+    "**Hadir Cok Baru Selese Coli ** 🥵",
+    "**Hadir Lynx Ganteng** 😎",
     "**Hadir Kak Maap Abis Ophen BE-O** 😖",
     "**Hadir Lagi Nonton Lipshow** 😁",
     "**Hadir Kak Maap Telat** 🥺",
-    "**Hadir Setannn...** 😋",
+    "**Hadir Dewa Lynx** 😋",
     "**Hadir Ahh Ahh Ahhh...** 😎",
     "**Hadir Pacar Orang** 😎",
 ]
@@ -40,7 +40,7 @@ roas = [
 ]
 
 sayang = [
-    "**Saya Hadir Untuk Membasmi Para Jamet Telegram** 😎 ",
+    "**Ia Sayang Aku Datang Untuk Membasmi Para Jamet Telegram** 😎 ",
     "**Iya Sayang kenapa?**",
     "**Kangen ngentod ma ayang🥺**",
     "**Apa Sayang** 😁",
@@ -108,7 +108,7 @@ async def redis(pong):
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'Ouraaa-Userbot` \n" % (duration)
+        f"**➾Branch : ** 'Lynx-Userbot` \n" % (duration)
     )
 
 
@@ -146,7 +146,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡**\n"
+        f"**👉ʟʏɴx-ᴜsᴇʀʙᴏᴛ👌**\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -171,7 +171,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡**\n\n"
+        f"**👉ʟʏɴx-ᴜsᴇʀʙᴏᴛ👌**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -220,7 +220,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡"
+        "✧ **BOT:** 👉ʟʏɴx-ᴜsᴇʀʙᴏᴛ👌"
     )
 
 
