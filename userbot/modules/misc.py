@@ -112,12 +112,12 @@ async def repo_is_here(wannasee):
         "┌❏━━━━━━━━━━━━━━━━◇\n"
         "├❏ **UserbotVersion :** 2.0\n" 
         "├❏ **Branch : Lynx-Userbot\n"
-        "├❏━━━━━━━━━━━━━━━━◇\n"
+        "├❏━━━━━━━━━━━━━━◇\n"
         "├❏ **GroupSupport :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/LynxSupports)\n" 
         "├❏ **Channel :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/Unsupportesd)\n" 
-        "├❏━━━━━━━━━━━━━━━━◇\n"
+        "├❏━━━━━━━━━━━━━━◇\n"
         "├❏ **OwnerRepo :** [Lynx.](t.me/Lynxhamsters)\n" 
-        "├❏ **Repo :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot)\n" 
+        "├❏ **Repo : [Lʏɴx-Uꜱᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot)\n" 
         "└❏━━━━━━━━━━━━━━━━◇\n")
 
 
