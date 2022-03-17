@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [ᴏᴜʀᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot) \n"
+        f"┣  `GitHub   :` [ʟʏɴx-ᴜsᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot) \n"
         f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/Unsupportesd) \n"
-        f"┣  `Owner    :` [ᴏᴜʀᴀ](https://t.me/Lynxhamsters) \n"
+        f"┣  `Owner    :` [ʟ ʏ ɴ x .](https://t.me/Lynxhamsters) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
