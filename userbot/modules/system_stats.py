@@ -223,21 +223,21 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:ouraalive)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:aalive)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f" **𝐋𝐘𝐍𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓** \n\n"
         f"\n__**{OURA_TEKS_KUSTOM}**__\n\n\n"
-        f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
-        f"◙ `Name       :` {DEFAULTUSER} \n"
-        f"◙ `Username   :` @{user.username} \n"
-        f"◙ `Telethon   :` {version.__version__} \n"
-        f"◙ `Python     :` {python_version()} \n"
-        f"◙ `Bot Ver    :` {BOT_VER} \n"
-        f"◙ `Modules    :` {len(modules)} \n"
-        f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
+        f"卍━━━━━━━━━━━━━━━━卍\n"
+        f"卍 `Name       :` {DEFAULTUSER} \n"
+        f"卍 `Username   :` @{user.username} \n"
+        f"卍 `Telethon   :` {version.__version__} \n"
+        f"卍 `Python     :` {python_version()} \n"
+        f"卍 `Bot Ver    :` {BOT_VER} \n"
+        f"卍 `Modules    :` {len(modules)} \n"
+        f"卍╼━━━━━━━━━━━━━━━卍\n"
         f"[ɢʀᴏᴜᴘꜱ](https://t.me/LynxSupports) | [ᴄʜᴀɴɴᴇʟ](https://t.me/Unsupportesd) | [ᴏᴡɴᴇʀ](https://t.me/Lynxhamsters) | [ɢɪᴛʜᴜʙ](https://github.com/Lynxhamster/Lynx-Userbot)")
     if ALIVE_LOGO:
         try:
@@ -259,14 +259,14 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:ouraon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:aliveon)\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
         f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[L y n x .](t.me/Lynxhamsters) \n"
-        f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
+        f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 0.1.6 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
         f"✾ 👾 • `ʙᴏᴛ      :`v.{BOT_VER} \n"
@@ -306,7 +306,7 @@ async def redis(alive):
     await alive.edit("💫")
     await asyncio.sleep(2)
     output = (
-        f"┏━━━━━━━━━━━━━━━━━━━ \n"
+        f"┏━━━━━━━━━━━━━━━━ \n"
         f"┣  `Name     :` {DEFAULTUSER} \n"
         f"┣  `Username :` @{user.username} \n"
         f"┣  `Telethon :` Ver {version.__version__} \n"
@@ -317,7 +317,7 @@ async def redis(alive):
         f"┣  `GitHub   :` [ʟʏɴx-ᴜsᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot) \n"
         f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/Unsupportesd) \n"
         f"┣  `Owner    :` [ʟ ʏ ɴ x .](https://t.me/Lynxhamsters) \n"
-        f"┗━━━━━━━━━━━━━━━━━━━")
+        f"┗━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
