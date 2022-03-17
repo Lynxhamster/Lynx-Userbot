@@ -964,7 +964,7 @@ with bot:
                 result = builder.photo(
                     file=kyylogo,
                     link_preview=False,
-                    text=f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 2.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME}".format(
+                    text=f"I ᴀᴍ Uꜱᴇʀʙᴏᴛ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ ᴏғ ʙᴏᴛ​​**\n\n❥ **ʙᴏᴛ ᴏᴡɴ :** {DEFAULTUSER}\n❥ **ᴠᴇʀsɪᴏɴ :** 2.0\n❥ **ᴍᴏᴅᴜʟᴇs :** {len(plugins)}\n❥ **ʙᴏᴛ :** @{BOT_USERNAME}".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -1027,9 +1027,9 @@ with bot:
                     buttons=[
                         [
                             Button.url("❈ꜱᴜᴘᴘᴏʀᴛ❈",
-                                       "t.me/Bdrlsupporrt"),
+                                       "t.me/Lynxsupports"),
                             Button.url("❈ᴄʜᴀɴɴᴇʟ❈",
-                                       "t.me/myventtt")],
+                                       "t.me/Unsupportesd")],
                         [custom.Button.inline(
                             "°ᴏᴘᴇɴ ᴍᴇɴᴜ°", data="open_plugin")],
                         [custom.Button.inline(
