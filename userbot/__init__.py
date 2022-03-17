@@ -600,7 +600,7 @@ with bot:
             if event.query.user_id == uid and query.startswith(
                     "@Ekojuuuuu"):
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 2.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME} "
+                text = f"I ᴀᴍ Uꜱᴇʀʙᴏᴛ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ ᴏғ ʙᴏᴛ​**\n\n❥ **ʙᴏᴛ ᴏᴡɴ :** {DEFAULTUSER}\n❥ **ᴠᴇʀsɪᴏɴ :** 2.0\n❥ **ᴍᴏᴅᴜʟᴇs :** {len(plugins)}\n❥ **ʙᴏᴛ :** @{BOT_USERNAME} "
                 await event.edit(text,
                                  file=kyylogo,
                                  buttons=buttons,
