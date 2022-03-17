@@ -4,8 +4,9 @@ from userbot import CMD_HELP, bot
 GCAST_BLACKLIST = [
     -1001743853750,  # Cariteman
     -1001704645461,  # Bdrl
-    -1001473548283,  #sharing
-    -1001217578068,  #ouraa
+    -1001473548283,  # Sharing
+    -1001217578068,  # Ouraa
+    -1001568891237,  # Lynx.
 ] 
 
 # Kalo fork atau coppy blacklist jangan dihapus bangsat,
@@ -22,9 +23,9 @@ async def gcast(event):
     elif event.is_reply:
         msg = await event.get_reply_message()
     else:
-        await event.edit("**Ngetikk Yang Benerr Ngentott**")
+        await event.edit("**Berikan teks atau Reply ke pesan**")
         return
-    kk = await event.edit("`Sabarr Ngapa Ngentott... Bokep nya Lagi Gua sebar, Limit Mampus Lu Njeng...`")
+    kk = await event.edit("`Global Broadcast Processing `")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -39,7 +40,7 @@ async def gcast(event):
             except BaseException:
                 er += 1
     await kk.edit(
-        f"**ALHAMDULILLAH... BOKEP NYA LAKU DI** `{done}` **Grup, TAPI... GA LAKU KARNA MISKIN DI** `{er}` **Grup**"
+        f"**Berhasil Terkirim Di** `{done}` **Grup, Gagal Terkirim Di** `{er}` **Grup**"
     )
 
 
@@ -50,7 +51,7 @@ async def gucast(event):
         return await event.edit("**Berikan Sebuah Pesan atau Balas ke pesan**")
     tt = event.text
     msg = tt[7:]
-    kk = await event.edit("`GCAST MULU DAPET DOI KAGA, LIMIT IYA TOLOL...`")
+    kk = await event.edit("`Menyebarkan ke private chat , Waiting..`")
     er = 0
     done = 0
     async for x in bot.iter_dialogs():
@@ -62,7 +63,7 @@ async def gucast(event):
             except BaseException:
                 er += 1
     await kk.edit(
-        f"**GCAST'AN LU DAH TERKIRIM DI** `{done}` **chats, Gagal Mengirim Pesan Ke** `{er}` **chats**"
+        f"**Berhasil Terkirim Di** `{done}` **chats, Gagal Mengirim Pesan Ke** `{er}` **chats**"
     )
 
 CMD_HELP.update(
