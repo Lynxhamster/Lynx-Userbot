@@ -42,13 +42,13 @@ CUSTOM_TEXT = str(
     PMPERMIT_TEXT) if PMPERMIT_TEXT else f"__Halo kawan, saya bot yang menjaga room chat Ouraaa-Userbot {DEFAULTUSER} di mohon jangan melakukan spam , kalau anda melakukan itu OTOMATIS saya akan memblockir anda!__ \n"
 DEF_UNAPPROVED_MSG = (
     "╔═════════════════════╗\n"
-    "“𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐓𝐡𝐞 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞”    ”\n"
+    "           ⚠️𝐖𝐀𝐑𝐍𝐈𝐍𝐆⚠️    ”\n"
     "╚═════════════════════╝\n"
     "**ᴛᴏʟᴏɴɢ ᴊᴀɴɢᴀɴ ᴍᴇʟᴀᴋᴜᴋᴀɴ sᴘᴀᴍ ᴄʜᴀᴛ ᴋᴇᴘᴀᴅᴀ ᴍᴀᴊɪᴋᴀɴ sᴀʏᴀ** \n"
     f"**ᴋᴀʀᴇɴᴀ sᴀʏᴀ ᴀᴋᴀɴ ᴏᴛᴏᴍᴀᴛɪs ᴍᴇᴍʙʟᴏᴋɪʀ ᴋᴀᴍᴜ, ᴛᴜɴɢɢᴜ sᴀᴍᴘᴀɪ {DEFAULTUSER} ᴍᴇɴᴇʀɪᴍᴀ ᴘᴇsᴀɴ ᴋᴀᴍᴜ [⚠️]({PMPERMIT_PIC})** \n"
     "╔═════════════════════╗\n"
-    "│○›Pᴇsᴀɴ Oᴛᴏᴍᴀᴛɪs           \n"
-    f"│○›Bʏ ⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓 ⚡           \n"
+    "••ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴍᴇssᴀɢᴇ           \n"
+    f"••Bʏ LYNX-USERBOT💫        \n"
     "╚═════════════════════╝")
 # =================================================================
 
