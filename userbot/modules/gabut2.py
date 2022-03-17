@@ -82,8 +82,6 @@ CMD_HELP.update({
     \n↳ : Jan Lupa Semangat`\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gelo`\
     \n↳ : Orang Sinting`\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.cenaa`\
-    \n↳ : Punya Cenaa`\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.chif`\
     \n↳ : Welcome Chifuyu."
 })
