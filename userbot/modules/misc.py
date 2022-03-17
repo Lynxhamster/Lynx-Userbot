@@ -108,12 +108,14 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **👉𝐋𝐘𝐍𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓👌** \n"
-        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Lynxhamster/Lynx-Userbot)\n"
-        "➣**Owner Bot     :** [L y n x .](t.me/Lynxhamsters)\n"
-        "➣ **Support       :** [sᴜᴘᴘᴏʀᴛ](https://t.me/LynxSupports)\n"
-        "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/Unsupportesd)\n"
-    )
+        "**Hey**, I am using **💫Lʏɴx-Uꜱᴇʀʙᴏᴛ💫** \n"
+        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
+        "┌❏ **UserbotVersion :** `{BOT_VER} @{branch}`\n" 
+        "├❏ **GroupSupport :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/LynxSupports)\n" 
+        "├❏━━━━━━━━━━━━━━━━━━━━━卍\n"
+        "├❏ **Channel :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/Unsupportesd)\n" 
+        "├❏ **OwnerRepo :** [Lynx.](t.me/Lynxhamsters)\n" 
+        "└❏ **Repo :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot)\n" )
 
 
 @register(outgoing=True, pattern=r"^\.string$")
@@ -272,13 +274,13 @@ CMD_HELP.update({
     \n↳ : Dapatkan item acak dari daftar item.",
     "sleep": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sleep <seconds>`\
     \n↳ : `.sleep`\
-    \n  •  **Function : Biarkan Ouraaa-Userbot tidur selama beberapa detik.",
+    \n  •  **Function : Biarkan Lynx-Userbot tidur selama beberapa detik.",
     "shutdown": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.shutdown`\
     \n↳ : Mematikan bot",
     "repo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repo`\
-    \n↳ : Menampilan link Repository Ouraaa-Userbot.",
+    \n↳ : Menampilan link Repository Lynx-Userbot.",
     "string": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.string`\
-    \n↳: Menampilkan link String Ouraaa-Userbot",
+    \n↳: Menampilkan link String Lynx-Userbot",
     "readme": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙 `.readme`\
     \n↳ : Menyediakan tautan untuk mengatur userbot dan modulnya.",
     "repeat": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.repeat <no> <text>`\
