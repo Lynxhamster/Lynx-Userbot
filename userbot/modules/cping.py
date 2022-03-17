@@ -16,13 +16,15 @@ from userbot import DEVS
 
 cping = [
 
-    "**Hadir cping** `100.699` ",
+    "**Hadir ping** `000.001` ",
 
-    "**Hadir speed** `999.999` ",
+    "**Hadir ngeleg** `124.965` ",
 
-    "**Hadir boosted** `565.930` ",
+    "**Hadir speed** `534.789` ",
 
-    "**Hadir pingers power** `789.666` ",
+    "**Hadir boosted** `796.379` ",
+
+    "**Hadir pingers power** `999.999` ",
 
 ]
 
