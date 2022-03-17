@@ -3,17 +3,17 @@ from userbot import CMD_HELP, DEVS
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.Ouraaa(?: |$)(.*)')
+@register(outgoing=True, pattern='^.Lynx(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku Ouraaa`")
+    await typew.edit("`Hai Perkenalkan Namaku Lynx`")
     sleep(3)
-    await typew.edit("`90 Tahun`")
+    await typew.edit("`612 Tahun`")
     sleep(3)
-    await typew.edit("`JOMBLO`")
+    await typew.edit("`ALIEN`")
     sleep(1)
-    await typew.edit("`Tinggal Di Mars, Salam Kenal:)`")
+    await typew.edit("`Tinggal Di Mars, Cium Jauh:)`")
 # Create by myself @localheart
 
 
@@ -54,18 +54,6 @@ async def typewriter(typew):
     await typew.edit("**KAMI SEMUA INGIN MENGUCAPKAN...**")
     sleep(1)
     await typew.edit("**LO SEMUA KAYAK KONTOL!! YAHAHAHA WAHYU**")
-# Create by myself @localheart
-
-
-@register(outgoing=True, pattern='^.cenaa(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(3)
-    await typew.edit("**HALLO KONTOLLL...**")
-    sleep(5)
-    await typew.edit("**CUMA MAU BILANG, KALO...**")
-    sleep(3)
-    await typew.edit("**CENA GANTENG 😎**")
 # Create by myself @localheart
 
 
