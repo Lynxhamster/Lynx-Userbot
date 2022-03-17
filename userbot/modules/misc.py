@@ -109,13 +109,16 @@ async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
         "**Hey**, I am using **💫Lʏɴx-Uꜱᴇʀʙᴏᴛ💫** \n"
-        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "┌❏ **UserbotVersion :** `{BOT_VER} @{branch}`\n" 
-        "├❏ **GroupSupport :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/LynxSupports)\n" 
-        "├❏━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "├❏ **Channel :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/Unsupportesd)\n" 
+        "┌❏━━━━━━━━━━━━━━━━━卍\n"
+        "├❏ **UserbotVersion :**2.0 \n" 
+        "├❏ **Branch : Lynx-Userbot \n"
+        "├❏━━━━━━━━━━━━━━━━━卍\n"
+        " ├❏ **GroupSupport :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/LynxSupports)\n" 
+        " ├❏ **Channel :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/Unsupportesd)\n" 
+        "├❏━━━━━━━━━━━━━━━━━卍\n"
         "├❏ **OwnerRepo :** [Lynx.](t.me/Lynxhamsters)\n" 
-        "└❏ **Repo :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot)\n" )
+        " ├❏ **Repo :** [Lʏɴx-Uꜱᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot)\n" 
+        "└❏━━━━━━━━━━━━━━━━━卍\n")
 
 
 @register(outgoing=True, pattern=r"^\.string$")
