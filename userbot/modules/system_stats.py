@@ -165,7 +165,7 @@ async def bot_ver(event):
 
         await event.edit(
             "**⚜-**𝐋𝐘𝐍𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 Versi:** \n "
-            f"heads/OURA-UBOT-0-x634i7u1"
+            f"heads/LYNXHAMSTER-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
