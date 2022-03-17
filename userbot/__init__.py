@@ -393,7 +393,7 @@ with bot:
         bot.loop.run_until_complete(checking())
     except BaseException:
         LOGS.info(
-            "Join Support Group @LynxSupport and Channel @Unsupportesd to see the updates of userbot"
+            "Join Support Group @LynxSupports and Channel @Unsupportesd to see the updates of userbot"
             "Don't Leave")
         quit(1)
 
