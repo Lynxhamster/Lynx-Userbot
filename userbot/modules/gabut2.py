@@ -3,7 +3,7 @@ from userbot import CMD_HELP, DEVS
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.Lynx(?: |$)(.*)')
+@register(outgoing=True, pattern='^.lynx(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
@@ -74,7 +74,7 @@ async def typewriter(typew):
 
 
 CMD_HELP.update({
-    "oi": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ouraaa`\
+    "oi": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.lynx`\
     \n↳ : perkenalan Bdrl\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Gombalan maut`\
