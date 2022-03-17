@@ -64,13 +64,13 @@ async def killdabot(event):
     await event.delete()
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
-                                        "`Userbot Telah Dimatikan`")
+                                        "`Userbot Telah Dideak`")
     await bot.disconnect()
 
 
 @register(outgoing=True, pattern="^.restart$")
 async def killdabot(event):
-    await event.edit("`⚡𝘖𝘶𝘳𝘢𝘢𝘢-𝘜𝘴𝘦𝘳𝘣𝘰𝘵⚡ Sedang Restart Sabar ya setan...`")
+    await event.edit("` 👉𝘓𝘺𝘯𝘹-𝘜𝘴𝘦𝘳𝘣𝘰𝘵👌 Sedang Dalam Proses Restart Sabar tod...`")
     await asyncio.sleep(10)
     await event.delete()
     if BOTLOG:
@@ -85,7 +85,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[Repo](https://github.com/Oura-Ubot/Ouraaa-Userbot/blob/Ouraaa-Userbot/README.md)"
+        "\n[Repo](https://github.com/Lynxhamster/Lynx-Userbot/blob/Lynx-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -108,11 +108,11 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **⚡𝐎𝐔𝐑𝐀-𝐔𝐁𝐎𝐓⚡** \n"
-        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Oura-Ubot/Ouraaa-Userbot)\n"
-        "➣**Owner Bot     :** [Ouraaa](t.me/Ekojuuuuu)\n"
-        "➣ **Support       :** [sᴜᴘᴘᴏʀᴛ](https://t.me/OuraaSupport)\n"
-        "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/OuraPostt)\n"
+        "**Hey**, I am using **👉𝐋𝐘𝐍𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓👌** \n"
+        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Lynxhamster/Lynx-Userbot)\n"
+        "➣**Owner Bot     :** [L y n x .](t.me/Lynxhamsters)\n"
+        "➣ **Support       :** [sᴜᴘᴘᴏʀᴛ](https://t.me/LynxSupports)\n"
+        "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/Unsupportesd)\n"
     )
 
 
