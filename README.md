@@ -5,8 +5,8 @@
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Week-white"/>
     <a href="https://github.com/Lynxhamster/Lynx-Userbot/commits/Lynx-Userbot"><img src="https://img.shields.io/github/last-commit/Lynxhamster/Lynx-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
     <a href="https://github.com/Lynxhamster/Lynx-Userbot"> <img src="https://img.shields.io/github/repo-size/Lynxhamster/Lynx-Userbot?logo=github&style=for-the-badge" /></a>
-    <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
-    <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
+    <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=purple&style=for-the-badge" /></a>
+    <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v1.9.6-brightgreen?style=for-the-badge&logo=appveyor"/>
     </p>
 
 
