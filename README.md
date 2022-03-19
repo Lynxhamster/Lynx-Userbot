@@ -1,7 +1,8 @@
 <h1 align="center">☆Lynx-Userbot☆</h1>
 
 <p align="center">
-    <img alt="LYNX VERSION" src="https://img.shields.io/badge/LYNX%20VERSION-1.9-brightgreen"/>
+    <img alt="LYNX VERSION" src="https://img.shields.io/badge/LYNX%20VERSION-1.9-white"/>
+    <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Week-white"/>
     <a href="https://github.com/Lynxhamster/Lynx-Userbot/commits/Lynx-Userbot"><img src="https://img.shields.io/github/last-commit/Lynxhamster/Lynx-Userbot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
              <a href="https://github.com/Lynxhamster/Lynx-Userbot"> <img src="https://img.shields.io/github/repo-size/Lynxhamster/Lynx-Userbot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
