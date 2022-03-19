@@ -14,6 +14,10 @@
 </p>
 
 
+Lynx-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+
+Userbot ini dibuat karna gabut
+
 ## Disclaimer
 
 ```
