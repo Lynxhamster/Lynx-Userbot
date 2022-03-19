@@ -146,14 +146,6 @@ async def get_user(event):
             replied_user = await event.client(
                 GetFullUserRequest(previous_message.sender_id)
             )
-    return replied_user.user.id
-
-
-      event,
-            f"🔮 **Sudo:** `Enabled`\n\n📚 ** List Sudo Users:**\n» `{users}`\n\n**SUDO_HANDLER:** `{SUDO_HANDLER}`",
-        )
-    else:
-        await edit_delete(event, "🔮 **Sudo:** `Disabled`")
 
 
 @man_cmd(pattern="addsudo(?:\s|$)([\s\S]*)")
