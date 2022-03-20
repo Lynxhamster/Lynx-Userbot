@@ -69,7 +69,7 @@ async def handler(tele):
                                 tele.chat_id, guser.id, view_messages=False
                             )
                             await tele.reply(
-                                f"**JAMET SOK IYE TELE MAMPUS KAN LU** \n"
+                                f"** MAMPUS KAN LU** \n"
                                 f"**User**: [{guser.id}](tg://user?id={guser.id})\n"
                                 f"**Status**  : `Global Banned`"
                             )
@@ -84,11 +84,11 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("**GUA GBAN LO ANJING!!!**")
+        dark = await dc.reply("**NORAK!!MAMPUS KAN LO**")
     else:
-        dark = await dc.edit("__Memproses Global Banned Anak Anjing...__")
+        dark = await dc.edit("__Memproses Baptis Anak Dajjal...__")
     me = await userbot.client.get_me()
-    await dark.edit(f"__Global Banned Segera Di Aktifkan...__")
+    await dark.edit(f"__Global Baptis Segera Di Aktifkan...__")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await userbot.get_chat()
@@ -110,7 +110,7 @@ async def gben(userbot):
     if user:
         if user.id in DEVS:
             return await dark.edit(
-                f"**Lu Mau Ngapain Anjg NgeGban Tuhan Gua? Goblok Mana Bisa Lah Anjg!!!**"
+                f"**Lupa Diri Lu Goblok,Mau Ngeban Pencipta Loe!!!**"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
@@ -129,7 +129,7 @@ async def gben(userbot):
             try:
                 await userbot.client.edit_permissions(i, user, view_messages=False)
                 a += 1
-                await dark.edit(f"**Global Banned** __Dah Aktif Tuan!__")
+                await dark.edit(f"**Global Baptis** __Dah Aktif Tuan!__")
             except BaseException:
                 b += 1
     else:
