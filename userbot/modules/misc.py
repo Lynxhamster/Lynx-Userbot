@@ -6,7 +6,6 @@ import sys
 import os
 import io
 import sys
-from telethon import Button 
 from userbot import ALIVE_NAME, UPSTREAM_REPO_URL, BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
 from userbot.events import register
 from userbot.utils import time_formatter
@@ -16,12 +15,6 @@ from bs4 import BeautifulSoup
 import re
 from PIL import Image
 
-SUP_BUTTONS = [
-    [
-        Button.url("• Repo •", url="https://github.com/Lynxhamster/Lynx-Userbot"),
-        Button.url("• Support •", url="t.me/Lynxsupports"),
-    ],
-]
 
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
@@ -112,24 +105,19 @@ async def repeat(rep):
 
 
 @register(outgoing=True, pattern="^.repo$")
-async def inline_alive(o):
-    MSG = "• **Ultroid Userbot •**"
-    WEB0 = InputWebDocument(
-        "https://telegra.ph/file/acd4f5d61369f74c5e7a7.jpg", 0, "image/jpg", []
-    )
-    RES = [
-        await o.builder.article(
-            type="photo",
-            text=MSG,
-            include_media=True,
-            buttons=SUP_BUTTONS,
-            title="Ultroid Userbot",
-            description="Userbot | Telethon",
-            url=TLINK,
-            thumb=WEB0,
-            content=InputWebDocument(TLINK, 0, "image/jpg", []),
-        )
-    ]
+async def repo_is_here(wannasee):
+    """ For .repo command, just returns the repo URL. """
+    await wannasee.edit(
+         "Hey, I am using Lʏɴx-Uꜱᴇʀʙᴏᴛ \n"
+         "┌❏━━━━━━━━━━━━━━━◇\n"
+         "├❏ UserbotVersion : 2.0\n"
+         "├❏ Branch : Lynx-Userbot\n"
+         "├❏━━━━━━━━━━━━━◇\n"
+         "├❏ GroupSupport : [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/LynxSupports)\n"
+         "├❏ Channel : [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/Unsupportesd)\n"
+         "├❏━━━━━━━━━━━━━◇\n" "├❏ OwnerRepo : [Lynx.](t.me/Lynxhamsters)\n"
+         "├❏ Repo : [Lʏɴx-Uꜱᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot)\n"
+         "└❏━━━━━━━━━━━━━━━◇\n")
 
 
 @register(outgoing=True, pattern=r"^\.string$")
