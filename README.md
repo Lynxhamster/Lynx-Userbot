@@ -7,7 +7,7 @@
     <a href="https://github.com/Lynxhamster/Lynx-Userbot"> <img src="https://img.shields.io/github/repo-size/Lynxhamster/Lynx-Userbot?logo=github&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=white&style=for-the-badge" /></a>
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v1.9.6-brightgreen?style=for-the-badge&logo=appveyor"/>
-    <img alt="BUILD IN" src="https://img.shields.io/badge/ZERO%20TWO%20X-pink"
+    <img alt="BUILD IN" src="https://img.shields.io/badge/𝒁𝒆𝒓𝒐%20𝑻𝒘𝒐%20𝑿-pink"
     </p>
 
 
