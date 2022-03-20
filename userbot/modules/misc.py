@@ -15,6 +15,12 @@ from bs4 import BeautifulSoup
 import re
 from PIL import Image
 
+SUP_BUTTONS = [
+    [
+        Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
+        Button.url("• Support •", url="t.me/UltroidSupport"),
+    ],
+]
 
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
