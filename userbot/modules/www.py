@@ -16,14 +16,14 @@ from userbot import CMD_HELP, DEVS, StartTime, ALIVE_NAME
 from userbot.events import register
 
 absen = [
-    "**Hadir Cok Baru Selese Coli ** 🥵",
+    "**Hadir Tuan ** ",
     "**Hadir Lynx Ganteng** 😎",
-    "**Hadir Kak Maap Abis Ophen BE-O** 😖",
+    "**Hadir Lynx ** 😘",
     "**Hadir Lagi Nonton Lipshow** 😁",
     "**Hadir Kak Maap Telat** 🥺",
     "**Hadir Dewa Lynx** 😋",
-    "**Hadir Ahh Ahh Ahhh...** 😎",
-    "**Hadir Pacar Orang** 😎",
+    "**Hadir Banh** 😎",
+    "**Hadir Sayang** 😎",
 ]
 
 roas = [
@@ -45,8 +45,8 @@ sayang = [
     "**Kangen ngentod ma ayang🥺**",
     "**Apa Sayang** 😁",
     "**Saya Hadir Untuk Melindungi Cewe Dari Laki Laki Sagapung** 😎",
-    "**Yuk ngentod sayang** 🙈",
-    "**Lagi sange bang** 🥵",
+    "**Ayang ewean yuu..** 🙈",
+    "**ia ayang, OYO yuk** 🥵",
 
 ]
 
@@ -101,7 +101,7 @@ async def redis(pong):
     await pong.edit("**○**")
     await pong.edit("**○●**")
     await pong.edit("**○●○**")
-    await pong.edit("__PUQIMEK__")
+    await pong.edit("__PUKIMAK__")
     await pong.edit("🥵")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
@@ -209,7 +209,7 @@ async def speedtst(spd):
 
     await spd.edit(
         "**Kecepatan Jaringan:\n**"
-        " ━━━━━━━━━━━━━━━━━ \n"
+        " ━━━━━━━━━━━━━━━━ \n"
         f"✧ **Dimulai Pada :**  \n"
         f"`{result['timestamp']}` \n"
         "✧ **Download:** "
