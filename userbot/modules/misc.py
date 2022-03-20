@@ -108,16 +108,16 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-         "Hey, I am using Lʏɴx-Uꜱᴇʀʙᴏᴛ \n"
-         "┌❏━━━━━━━━━━━━━━━◇\n"
-         "├❏ UserbotVersion : 2.0\n"
-         "├❏ Branch : Lynx-Userbot\n"
-         "├❏━━━━━━━━━━━━━◇\n"
-         "├❏ GroupSupport : [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/LynxSupports)\n"
-         "├❏ Channel : [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/Unsupportesd)\n"
-         "├❏━━━━━━━━━━━━━◇\n" "├❏ OwnerRepo : [Lynx.](t.me/Lynxhamsters)\n"
-         "├❏ Repo : [Lʏɴx-Uꜱᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot)\n"
-         "└❏━━━━━━━━━━━━━━━◇\n")
+        "Hey, I am using Lʏɴx-Uꜱᴇʀʙᴏᴛ \n"
+        "┌❏━━━━━━━━━━━━━━━◇\n"
+        "├❏ UserbotVersion : 2.0\n"
+        "├❏ Branch : Lynx-Userbot\n"
+        "├❏━━━━━━━━━━━━━◇\n"
+        "├❏ GroupSupport : [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/LynxSupports)\n"
+        "├❏ Channel : [Lʏɴx-Uꜱᴇʀʙᴏᴛ](t.me/Unsupportesd)\n"
+        "├❏━━━━━━━━━━━━━◇\n" "├❏ OwnerRepo : [Lynx.](t.me/Lynxhamsters)\n"
+        "├❏ Repo : [Lʏɴx-Uꜱᴇʀʙᴏᴛ](https://github.com/Lynxhamster/Lynx-Userbot)\n"
+        "└❏━━━━━━━━━━━━━━━◇\n")
 
 
 @register(outgoing=True, pattern=r"^\.string$")
