@@ -12,7 +12,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/339efb2af2c22406b6fc1.png">
+  <img src="https://telegra.ph/file/d3154f082a59992bbdf8b.png">
 </p>
 
 
@@ -31,7 +31,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 
 ## String Session :
-[![GenerateStringName](https://img.shields.io/badge/repl.it-generateStringName-white)](https://replit.com/@rizkyhmdanii16/StringSession)
+[![LynxString](https://img.shields.io/badge/repl.it-LynxString-cyan)](https://t.me/zerotwostringbot)
 
 
 ## Heroku Deployment
