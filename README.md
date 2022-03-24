@@ -31,7 +31,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 
 ## String Session :
-[![LynxString](https://img.shields.io/badge/repl.it-LynxString-cyan)](https://t.me/zerotwostringbot)
+[![LynxString](https://img.shields.io/badge/LynxString-cyan)](https://t.me/zerotwostringbot)
 
 
 ## Heroku Deployment
