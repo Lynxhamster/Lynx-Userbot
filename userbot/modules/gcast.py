@@ -6,7 +6,8 @@ GCAST_BLACKLIST = [
     -1001704645461,  # Bdrl
     -1001473548283,  # Sharing
     -1001217578068,  # Ouraa
-    -1001568891237,  # Lynx.
+    -1001568891237,  # Lynx
+    -1001704645461,  #.
 ] 
 
 # Kalo fork atau coppy blacklist jangan dihapus bangsat,
